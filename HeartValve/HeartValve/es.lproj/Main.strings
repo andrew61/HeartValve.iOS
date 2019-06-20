@@ -1,0 +1,99 @@
+/* Class = "UILabel"; text = "Systolic"; ObjectID = "0Np-fD-oFT"; */
+"0Np-fD-oFT.text" = "sistólica";
+
+/* Class = "UIButton"; normalTitle = "Manual Entry"; ObjectID = "3kN-vE-aLV"; */
+"3kN-vE-aLV.normalTitle" = "Entrada manual";
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "7lH-PE-fh5"; */
+"7lH-PE-fh5.normalTitle" = "Iniciar sesión";
+
+/* Class = "UILabel"; text = "Map"; ObjectID = "8RO-TD-3X7"; */
+"8RO-TD-3X7.text" = "Mapa";
+
+/* Class = "UINavigationItem"; title = "Blood Glucose"; ObjectID = "23O-o1-V1r"; */
+"23O-o1-V1r.title" = "glucosa en la Sangre";
+
+/* Class = "UINavigationItem"; title = "Blood Pressure"; ObjectID = "56s-YT-Pur"; */
+"56s-YT-Pur.title" = "presión arterial";
+
+/* Class = "UILabel"; text = "Blood Pressure"; ObjectID = "238-pZ-dnZ"; */
+"238-pZ-dnZ.text" = "presión arterial";
+
+/* Class = "UIButton"; normalTitle = "Manual Entry"; ObjectID = "Abg-0Q-dIk"; */
+"Abg-0Q-dIk.normalTitle" = "Entrada manual";
+
+/* Class = "UITableViewSection"; headerTitle = "Measurements"; ObjectID = "DCF-Kt-Dbh"; */
+"DCF-Kt-Dbh.headerTitle" = "mediciones";
+
+/* Class = "UINavigationItem"; title = "My Health App"; ObjectID = "Dor-ge-IY2"; */
+"Dor-ge-IY2.title" = "My Health App";
+
+/* Class = "UINavigationItem"; title = "Weight"; ObjectID = "F8M-Fv-VGk"; */
+"F8M-Fv-VGk.title" = "Peso";
+
+/* Class = "UILabel"; text = "Take Survey"; ObjectID = "Fp8-Og-4X5"; */
+"Fp8-Og-4X5.text" = "Tome Encuesta";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Jqh-BY-TCS"; */
+"Jqh-BY-TCS.title" = " ";
+
+/* Class = "UILabel"; text = "lbs"; ObjectID = "Jwf-34-B72"; */
+"Jwf-34-B72.text" = "lbs";
+
+/* Class = "UILabel"; text = "Blood Glucose"; ObjectID = "MX7-Gd-aB3"; */
+"MX7-Gd-aB3.text" = "glucosa en la Sangre";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "NW4-9K-5fm"; */
+"NW4-9K-5fm.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Survey"; ObjectID = "Nl2-l0-3t5"; */
+"Nl2-l0-3t5.title" = "Encuesta";
+
+/* Class = "UINavigationItem"; title = "Weight"; ObjectID = "Nos-dS-xrT"; */
+"Nos-dS-xrT.title" = "Peso";
+
+/* Class = "UILabel"; text = "Blood Glucose"; ObjectID = "OTP-83-J9c"; */
+"OTP-83-J9c.text" = "glucosa en la Sangre";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "QM6-H5-NHs"; */
+"QM6-H5-NHs.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "U2V-Ng-QvQ"; */
+"U2V-Ng-QvQ.placeholder" = "Clave";
+
+/* Class = "UITextField"; text = "Tachl!1234"; ObjectID = "U2V-Ng-QvQ"; */
+"U2V-Ng-QvQ.text" = "Tachl!1234";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "cyk-rh-jOU"; */
+"cyk-rh-jOU.placeholder" = "Nombre de usuario";
+
+/* Class = "UITextField"; text = "tindaljo@musc.edu"; ObjectID = "cyk-rh-jOU"; */
+"cyk-rh-jOU.text" = "tindaljo@musc.edu";
+
+/* Class = "UIButton"; normalTitle = "Take Weight"; ObjectID = "f0J-bJ-iGr"; */
+"f0J-bJ-iGr.normalTitle" = "Tome Peso";
+
+/* Class = "UILabel"; text = "Log Out"; ObjectID = "ics-86-C8y"; */
+"ics-86-C8y.text" = "Cerrar sesión";
+
+/* Class = "UILabel"; text = "Diastolic"; ObjectID = "jZW-YI-rXj"; */
+"jZW-YI-rXj.text" = "diastólica";
+
+/* Class = "UINavigationItem"; title = "Blood Pressure"; ObjectID = "lEK-VN-bnV"; */
+"lEK-VN-bnV.title" = "presión arterial";
+
+/* Class = "UIButton"; normalTitle = "Take Blood Pressure"; ObjectID = "nC2-ZI-SWT"; */
+"nC2-ZI-SWT.normalTitle" = "Tomar la presión arterial";
+
+/* Class = "UILabel"; text = "mg/dL"; ObjectID = "pxP-0I-bSN"; */
+"pxP-0I-bSN.text" = "mg/dL";
+
+/* Class = "UILabel"; text = "Weight"; ObjectID = "rql-8l-1Y2"; */
+"rql-8l-1Y2.text" = "Peso";
+
+/* Class = "UITableViewSection"; headerTitle = "EMA"; ObjectID = "v51-uh-fFg"; */
+"v51-uh-fFg.headerTitle" = "EMA";
+
+/* Class = "UILabel"; text = "Pulse"; ObjectID = "zqG-CH-l87"; */
+"zqG-CH-l87.text" = "pulso";
+

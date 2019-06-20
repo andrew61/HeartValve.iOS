@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C9F8BF1D5185990045B43E /* iHealthLibrary(2.0.5).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C9F8BE1D5185990045B43E /* iHealthLibrary(2.0.5).a */; };
+		4D48B73F19D0F40D00BA5A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B73E19D0F40D00BA5A84 /* Foundation.framework */; };
+		4D48B74119D0F40D00BA5A84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B74019D0F40D00BA5A84 /* CoreGraphics.framework */; };
+		4D48B74319D0F40D00BA5A84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B74219D0F40D00BA5A84 /* UIKit.framework */; };
+		4D48B74919D0F40D00BA5A84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D48B74719D0F40D00BA5A84 /* InfoPlist.strings */; };
+		4D48B74B19D0F40D00BA5A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B74A19D0F40D00BA5A84 /* main.m */; };
+		4D48B74F19D0F40D00BA5A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B74E19D0F40D00BA5A84 /* AppDelegate.m */; };
+		4D48B75219D0F40D00BA5A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D48B75019D0F40D00BA5A84 /* Main.storyboard */; };
+		4D48B75A19D0F40D00BA5A84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D48B75919D0F40D00BA5A84 /* Images.xcassets */; };
+		4D48B76119D0F40D00BA5A84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B76019D0F40D00BA5A84 /* XCTest.framework */; };
+		4D48B76219D0F40D00BA5A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B73E19D0F40D00BA5A84 /* Foundation.framework */; };
+		4D48B76319D0F40D00BA5A84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B74219D0F40D00BA5A84 /* UIKit.framework */; };
+		4D48B76B19D0F40D00BA5A84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D48B76919D0F40D00BA5A84 /* InfoPlist.strings */; };
+		4D48B76D19D0F40D00BA5A84 /* iHealthDemoCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B76C19D0F40D00BA5A84 /* iHealthDemoCodeTests.m */; };
+		4D48B77819D0F67900BA5A84 /* BPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B77719D0F67900BA5A84 /* BPViewController.m */; };
+		4D48B77B19D0F74000BA5A84 /* HSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B77A19D0F74000BA5A84 /* HSViewController.m */; };
+		4D48B78119D0F8F000BA5A84 /* POViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B78019D0F8F000BA5A84 /* POViewController.m */; };
+		4D48B78419D0F8FC00BA5A84 /* BGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B78319D0F8FC00BA5A84 /* BGViewController.m */; };
+		4D48B7A819D0FA8B00BA5A84 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B7A719D0FA8B00BA5A84 /* CoreBluetooth.framework */; };
+		4D48B7AA19D0FA9300BA5A84 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48B7A919D0FA9300BA5A84 /* ExternalAccessory.framework */; };
+		8602E24C1CF3ED6A00214CEC /* AM4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602E24A1CF3ED6A00214CEC /* AM4ViewController.m */; };
+		8602E24D1CF3ED6A00214CEC /* AM4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8602E24B1CF3ED6A00214CEC /* AM4ViewController.xib */; };
+		86BE1E631CF2EECD006107E3 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BE1E601CF2EECD006107E3 /* AMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D48B76419D0F40D00BA5A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D48B73319D0F40D00BA5A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D48B73A19D0F40D00BA5A84;
+			remoteInfo = iHealthDemoCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C9F8BE1D5185990045B43E /* iHealthLibrary(2.0.5).a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "iHealthLibrary(2.0.5).a"; sourceTree = "<group>"; };
+		18C9F8C11D5185BA0045B43E /* ABI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABI.h; sourceTree = "<group>"; };
+		18C9F8C21D5185BA0045B43E /* ABIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABIController.h; sourceTree = "<group>"; };
+		18C9F8C31D5185BA0045B43E /* ABPM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPM.h; sourceTree = "<group>"; };
+		18C9F8C41D5185BA0045B43E /* ABPMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPMController.h; sourceTree = "<group>"; };
+		18C9F8C51D5185BA0045B43E /* AM3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3.h; sourceTree = "<group>"; };
+		18C9F8C61D5185BA0045B43E /* AM3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3Controller.h; sourceTree = "<group>"; };
+		18C9F8C71D5185BA0045B43E /* AM3S.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3S.h; sourceTree = "<group>"; };
+		18C9F8C81D5185BA0045B43E /* AM3SController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3SController.h; sourceTree = "<group>"; };
+		18C9F8C91D5185BA0045B43E /* AM4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM4.h; sourceTree = "<group>"; };
+		18C9F8CA1D5185BA0045B43E /* AM4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM4Controller.h; sourceTree = "<group>"; };
+		18C9F8CB1D5185BA0045B43E /* AMHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMHeader.h; sourceTree = "<group>"; };
+		18C9F8CC1D5185BA0045B43E /* AMMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMacroFile.h; sourceTree = "<group>"; };
+		18C9F8CD1D5185BA0045B43E /* AudioBasicCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioBasicCommunication.h; sourceTree = "<group>"; };
+		18C9F8CE1D5185BA0045B43E /* BaseBG1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBG1.h; sourceTree = "<group>"; };
+		18C9F8CF1D5185BA0045B43E /* BG1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG1.h; sourceTree = "<group>"; };
+		18C9F8D01D5185BA0045B43E /* BG1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG1Controller.h; sourceTree = "<group>"; };
+		18C9F8D11D5185BA0045B43E /* BG1NewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG1NewClass.h; sourceTree = "<group>"; };
+		18C9F8D21D5185BA0045B43E /* BG3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG3.h; sourceTree = "<group>"; };
+		18C9F8D31D5185BA0045B43E /* BG3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG3Controller.h; sourceTree = "<group>"; };
+		18C9F8D41D5185BA0045B43E /* BG5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5.h; sourceTree = "<group>"; };
+		18C9F8D51D5185BA0045B43E /* BG5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5Controller.h; sourceTree = "<group>"; };
+		18C9F8D61D5185BA0045B43E /* BG5L.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5L.h; sourceTree = "<group>"; };
+		18C9F8D71D5185BA0045B43E /* BG5LController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5LController.h; sourceTree = "<group>"; };
+		18C9F8D81D5185BA0045B43E /* BGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGHeader.h; sourceTree = "<group>"; };
+		18C9F8D91D5185BA0045B43E /* BGMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMacroFile.h; sourceTree = "<group>"; };
+		18C9F8DA1D5185BA0045B43E /* BP3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3.h; sourceTree = "<group>"; };
+		18C9F8DB1D5185BA0045B43E /* BP3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3Controller.h; sourceTree = "<group>"; };
+		18C9F8DC1D5185BA0045B43E /* BP3L.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3L.h; sourceTree = "<group>"; };
+		18C9F8DD1D5185BA0045B43E /* BP3LController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3LController.h; sourceTree = "<group>"; };
+		18C9F8DE1D5185BA0045B43E /* BP5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5.h; sourceTree = "<group>"; };
+		18C9F8DF1D5185BA0045B43E /* BP5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5Controller.h; sourceTree = "<group>"; };
+		18C9F8E01D5185BA0045B43E /* BP7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7.h; sourceTree = "<group>"; };
+		18C9F8E11D5185BA0045B43E /* BP7Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7Controller.h; sourceTree = "<group>"; };
+		18C9F8E21D5185BA0045B43E /* BP7S.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7S.h; sourceTree = "<group>"; };
+		18C9F8E31D5185BA0045B43E /* BP7SController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7SController.h; sourceTree = "<group>"; };
+		18C9F8E41D5185BA0045B43E /* BPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPHeader.h; sourceTree = "<group>"; };
+		18C9F8E51D5185BA0045B43E /* BPMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMacroFile.h; sourceTree = "<group>"; };
+		18C9F8E61D5185BA0045B43E /* ConnectDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectDeviceController.h; sourceTree = "<group>"; };
+		18C9F8E71D5185BA0045B43E /* HealthHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthHeader.h; sourceTree = "<group>"; };
+		18C9F8E81D5185BA0045B43E /* HealthUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthUser.h; sourceTree = "<group>"; };
+		18C9F8E91D5185BA0045B43E /* HS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS3.h; sourceTree = "<group>"; };
+		18C9F8EA1D5185BA0045B43E /* HS3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS3Controller.h; sourceTree = "<group>"; };
+		18C9F8EB1D5185BA0045B43E /* HS4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS4.h; sourceTree = "<group>"; };
+		18C9F8EC1D5185BA0045B43E /* HS4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS4Controller.h; sourceTree = "<group>"; };
+		18C9F8ED1D5185BA0045B43E /* HS5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS5.h; sourceTree = "<group>"; };
+		18C9F8EE1D5185BA0045B43E /* HS5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS5Controller.h; sourceTree = "<group>"; };
+		18C9F8EF1D5185BA0045B43E /* HSHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHeader.h; sourceTree = "<group>"; };
+		18C9F8F01D5185BA0045B43E /* HSMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSMacroFile.h; sourceTree = "<group>"; };
+		18C9F8F11D5185BA0045B43E /* HTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTS.h; sourceTree = "<group>"; };
+		18C9F8F21D5185BA0045B43E /* HTSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSController.h; sourceTree = "<group>"; };
+		18C9F8F31D5185BA0045B43E /* HTSHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSHeader.h; sourceTree = "<group>"; };
+		18C9F8F41D5185BA0045B43E /* HTSMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSMacroFile.h; sourceTree = "<group>"; };
+		18C9F8F51D5185BA0045B43E /* iHealthHS6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHealthHS6.h; sourceTree = "<group>"; };
+		18C9F8F61D5185BA0045B43E /* KD723.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KD723.h; sourceTree = "<group>"; };
+		18C9F8F71D5185BA0045B43E /* KD723Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KD723Controller.h; sourceTree = "<group>"; };
+		18C9F8F81D5185BA0045B43E /* KD926.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KD926.h; sourceTree = "<group>"; };
+		18C9F8F91D5185BA0045B43E /* KD926Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KD926Controller.h; sourceTree = "<group>"; };
+		18C9F8FA1D5185BA0045B43E /* KN550BT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KN550BT.h; sourceTree = "<group>"; };
+		18C9F8FB1D5185BA0045B43E /* KN550BTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KN550BTController.h; sourceTree = "<group>"; };
+		18C9F8FC1D5185BA0045B43E /* NewAudioBasicCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAudioBasicCommunication.h; sourceTree = "<group>"; };
+		18C9F8FD1D5185BA0045B43E /* PO3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PO3.h; sourceTree = "<group>"; };
+		18C9F8FE1D5185BA0045B43E /* PO3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PO3Controller.h; sourceTree = "<group>"; };
+		18C9F8FF1D5185BA0045B43E /* POHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POHeader.h; sourceTree = "<group>"; };
+		18C9F9001D5185BA0045B43E /* POMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMacroFile.h; sourceTree = "<group>"; };
+		18C9F9011D5185BA0045B43E /* ScanDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanDeviceController.h; sourceTree = "<group>"; };
+		4D48B73B19D0F40D00BA5A84 /* iHealthDemoCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHealthDemoCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D48B73E19D0F40D00BA5A84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D48B74019D0F40D00BA5A84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D48B74219D0F40D00BA5A84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D48B74619D0F40D00BA5A84 /* iHealthDemoCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHealthDemoCode-Info.plist"; sourceTree = "<group>"; };
+		4D48B74819D0F40D00BA5A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D48B74A19D0F40D00BA5A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D48B74C19D0F40D00BA5A84 /* iHealthDemoCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHealthDemoCode-Prefix.pch"; sourceTree = "<group>"; };
+		4D48B74D19D0F40D00BA5A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D48B74E19D0F40D00BA5A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D48B75119D0F40D00BA5A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D48B75919D0F40D00BA5A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D48B75F19D0F40D00BA5A84 /* iHealthDemoCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHealthDemoCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D48B76019D0F40D00BA5A84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D48B76819D0F40D00BA5A84 /* iHealthDemoCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHealthDemoCodeTests-Info.plist"; sourceTree = "<group>"; };
+		4D48B76A19D0F40D00BA5A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D48B76C19D0F40D00BA5A84 /* iHealthDemoCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHealthDemoCodeTests.m; sourceTree = "<group>"; };
+		4D48B77619D0F67900BA5A84 /* BPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPViewController.h; sourceTree = "<group>"; };
+		4D48B77719D0F67900BA5A84 /* BPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPViewController.m; sourceTree = "<group>"; };
+		4D48B77919D0F74000BA5A84 /* HSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSViewController.h; sourceTree = "<group>"; };
+		4D48B77A19D0F74000BA5A84 /* HSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSViewController.m; sourceTree = "<group>"; };
+		4D48B77F19D0F8F000BA5A84 /* POViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POViewController.h; sourceTree = "<group>"; };
+		4D48B78019D0F8F000BA5A84 /* POViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POViewController.m; sourceTree = "<group>"; };
+		4D48B78219D0F8FC00BA5A84 /* BGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGViewController.h; sourceTree = "<group>"; };
+		4D48B78319D0F8FC00BA5A84 /* BGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGViewController.m; sourceTree = "<group>"; };
+		4D48B7A719D0FA8B00BA5A84 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4D48B7A919D0FA9300BA5A84 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		8602E2491CF3ED6A00214CEC /* AM4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM4ViewController.h; sourceTree = "<group>"; };
+		8602E24A1CF3ED6A00214CEC /* AM4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AM4ViewController.m; sourceTree = "<group>"; };
+		8602E24B1CF3ED6A00214CEC /* AM4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AM4ViewController.xib; sourceTree = "<group>"; };
+		86BE1E5F1CF2EECD006107E3 /* AMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
+		86BE1E601CF2EECD006107E3 /* AMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D48B73819D0F40D00BA5A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9F8BF1D5185990045B43E /* iHealthLibrary(2.0.5).a in Frameworks */,
+				4D48B7AA19D0FA9300BA5A84 /* ExternalAccessory.framework in Frameworks */,
+				4D48B7A819D0FA8B00BA5A84 /* CoreBluetooth.framework in Frameworks */,
+				4D48B74119D0F40D00BA5A84 /* CoreGraphics.framework in Frameworks */,
+				4D48B74319D0F40D00BA5A84 /* UIKit.framework in Frameworks */,
+				4D48B73F19D0F40D00BA5A84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D48B75C19D0F40D00BA5A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D48B76119D0F40D00BA5A84 /* XCTest.framework in Frameworks */,
+				4D48B76319D0F40D00BA5A84 /* UIKit.framework in Frameworks */,
+				4D48B76219D0F40D00BA5A84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C9F8C01D5185BA0045B43E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				18C9F8C11D5185BA0045B43E /* ABI.h */,
+				18C9F8C21D5185BA0045B43E /* ABIController.h */,
+				18C9F8C31D5185BA0045B43E /* ABPM.h */,
+				18C9F8C41D5185BA0045B43E /* ABPMController.h */,
+				18C9F8C51D5185BA0045B43E /* AM3.h */,
+				18C9F8C61D5185BA0045B43E /* AM3Controller.h */,
+				18C9F8C71D5185BA0045B43E /* AM3S.h */,
+				18C9F8C81D5185BA0045B43E /* AM3SController.h */,
+				18C9F8C91D5185BA0045B43E /* AM4.h */,
+				18C9F8CA1D5185BA0045B43E /* AM4Controller.h */,
+				18C9F8CB1D5185BA0045B43E /* AMHeader.h */,
+				18C9F8CC1D5185BA0045B43E /* AMMacroFile.h */,
+				18C9F8CD1D5185BA0045B43E /* AudioBasicCommunication.h */,
+				18C9F8CE1D5185BA0045B43E /* BaseBG1.h */,
+				18C9F8CF1D5185BA0045B43E /* BG1.h */,
+				18C9F8D01D5185BA0045B43E /* BG1Controller.h */,
+				18C9F8D11D5185BA0045B43E /* BG1NewClass.h */,
+				18C9F8D21D5185BA0045B43E /* BG3.h */,
+				18C9F8D31D5185BA0045B43E /* BG3Controller.h */,
+				18C9F8D41D5185BA0045B43E /* BG5.h */,
+				18C9F8D51D5185BA0045B43E /* BG5Controller.h */,
+				18C9F8D61D5185BA0045B43E /* BG5L.h */,
+				18C9F8D71D5185BA0045B43E /* BG5LController.h */,
+				18C9F8D81D5185BA0045B43E /* BGHeader.h */,
+				18C9F8D91D5185BA0045B43E /* BGMacroFile.h */,
+				18C9F8DA1D5185BA0045B43E /* BP3.h */,
+				18C9F8DB1D5185BA0045B43E /* BP3Controller.h */,
+				18C9F8DC1D5185BA0045B43E /* BP3L.h */,
+				18C9F8DD1D5185BA0045B43E /* BP3LController.h */,
+				18C9F8DE1D5185BA0045B43E /* BP5.h */,
+				18C9F8DF1D5185BA0045B43E /* BP5Controller.h */,
+				18C9F8E01D5185BA0045B43E /* BP7.h */,
+				18C9F8E11D5185BA0045B43E /* BP7Controller.h */,
+				18C9F8E21D5185BA0045B43E /* BP7S.h */,
+				18C9F8E31D5185BA0045B43E /* BP7SController.h */,
+				18C9F8E41D5185BA0045B43E /* BPHeader.h */,
+				18C9F8E51D5185BA0045B43E /* BPMacroFile.h */,
+				18C9F8E61D5185BA0045B43E /* ConnectDeviceController.h */,
+				18C9F8E71D5185BA0045B43E /* HealthHeader.h */,
+				18C9F8E81D5185BA0045B43E /* HealthUser.h */,
+				18C9F8E91D5185BA0045B43E /* HS3.h */,
+				18C9F8EA1D5185BA0045B43E /* HS3Controller.h */,
+				18C9F8EB1D5185BA0045B43E /* HS4.h */,
+				18C9F8EC1D5185BA0045B43E /* HS4Controller.h */,
+				18C9F8ED1D5185BA0045B43E /* HS5.h */,
+				18C9F8EE1D5185BA0045B43E /* HS5Controller.h */,
+				18C9F8EF1D5185BA0045B43E /* HSHeader.h */,
+				18C9F8F01D5185BA0045B43E /* HSMacroFile.h */,
+				18C9F8F11D5185BA0045B43E /* HTS.h */,
+				18C9F8F21D5185BA0045B43E /* HTSController.h */,
+				18C9F8F31D5185BA0045B43E /* HTSHeader.h */,
+				18C9F8F41D5185BA0045B43E /* HTSMacroFile.h */,
+				18C9F8F51D5185BA0045B43E /* iHealthHS6.h */,
+				18C9F8F61D5185BA0045B43E /* KD723.h */,
+				18C9F8F71D5185BA0045B43E /* KD723Controller.h */,
+				18C9F8F81D5185BA0045B43E /* KD926.h */,
+				18C9F8F91D5185BA0045B43E /* KD926Controller.h */,
+				18C9F8FA1D5185BA0045B43E /* KN550BT.h */,
+				18C9F8FB1D5185BA0045B43E /* KN550BTController.h */,
+				18C9F8FC1D5185BA0045B43E /* NewAudioBasicCommunication.h */,
+				18C9F8FD1D5185BA0045B43E /* PO3.h */,
+				18C9F8FE1D5185BA0045B43E /* PO3Controller.h */,
+				18C9F8FF1D5185BA0045B43E /* POHeader.h */,
+				18C9F9001D5185BA0045B43E /* POMacroFile.h */,
+				18C9F9011D5185BA0045B43E /* ScanDeviceController.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4D48B73219D0F40D00BA5A84 = {
+			isa = PBXGroup;
+			children = (
+				4D48B74419D0F40D00BA5A84 /* iHealthDemoCode */,
+				4D48B76619D0F40D00BA5A84 /* iHealthDemoCodeTests */,
+				4D48B73D19D0F40D00BA5A84 /* Frameworks */,
+				4D48B73C19D0F40D00BA5A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D48B73C19D0F40D00BA5A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B73B19D0F40D00BA5A84 /* iHealthDemoCode.app */,
+				4D48B75F19D0F40D00BA5A84 /* iHealthDemoCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D48B73D19D0F40D00BA5A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B7A919D0FA9300BA5A84 /* ExternalAccessory.framework */,
+				4D48B7A719D0FA8B00BA5A84 /* CoreBluetooth.framework */,
+				4D48B73E19D0F40D00BA5A84 /* Foundation.framework */,
+				4D48B74019D0F40D00BA5A84 /* CoreGraphics.framework */,
+				4D48B74219D0F40D00BA5A84 /* UIKit.framework */,
+				4D48B76019D0F40D00BA5A84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D48B74419D0F40D00BA5A84 /* iHealthDemoCode */ = {
+			isa = PBXGroup;
+			children = (
+				18C9F8BE1D5185990045B43E /* iHealthLibrary(2.0.5).a */,
+				18C9F8C01D5185BA0045B43E /* include */,
+				4D48B74D19D0F40D00BA5A84 /* AppDelegate.h */,
+				4D48B74E19D0F40D00BA5A84 /* AppDelegate.m */,
+				86BE1E5F1CF2EECD006107E3 /* AMViewController.h */,
+				86BE1E601CF2EECD006107E3 /* AMViewController.m */,
+				8602E2491CF3ED6A00214CEC /* AM4ViewController.h */,
+				8602E24A1CF3ED6A00214CEC /* AM4ViewController.m */,
+				8602E24B1CF3ED6A00214CEC /* AM4ViewController.xib */,
+				4D48B75019D0F40D00BA5A84 /* Main.storyboard */,
+				4D48B77619D0F67900BA5A84 /* BPViewController.h */,
+				4D48B77719D0F67900BA5A84 /* BPViewController.m */,
+				4D48B77919D0F74000BA5A84 /* HSViewController.h */,
+				4D48B77A19D0F74000BA5A84 /* HSViewController.m */,
+				4D48B77F19D0F8F000BA5A84 /* POViewController.h */,
+				4D48B78019D0F8F000BA5A84 /* POViewController.m */,
+				4D48B78219D0F8FC00BA5A84 /* BGViewController.h */,
+				4D48B78319D0F8FC00BA5A84 /* BGViewController.m */,
+				4D48B75919D0F40D00BA5A84 /* Images.xcassets */,
+				4D48B74519D0F40D00BA5A84 /* Supporting Files */,
+			);
+			path = iHealthDemoCode;
+			sourceTree = "<group>";
+		};
+		4D48B74519D0F40D00BA5A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B74619D0F40D00BA5A84 /* iHealthDemoCode-Info.plist */,
+				4D48B74719D0F40D00BA5A84 /* InfoPlist.strings */,
+				4D48B74A19D0F40D00BA5A84 /* main.m */,
+				4D48B74C19D0F40D00BA5A84 /* iHealthDemoCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D48B76619D0F40D00BA5A84 /* iHealthDemoCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B76C19D0F40D00BA5A84 /* iHealthDemoCodeTests.m */,
+				4D48B76719D0F40D00BA5A84 /* Supporting Files */,
+			);
+			path = iHealthDemoCodeTests;
+			sourceTree = "<group>";
+		};
+		4D48B76719D0F40D00BA5A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B76819D0F40D00BA5A84 /* iHealthDemoCodeTests-Info.plist */,
+				4D48B76919D0F40D00BA5A84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D48B73A19D0F40D00BA5A84 /* iHealthDemoCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D48B77019D0F40D00BA5A84 /* Build configuration list for PBXNativeTarget "iHealthDemoCode" */;
+			buildPhases = (
+				4D48B73719D0F40D00BA5A84 /* Sources */,
+				4D48B73819D0F40D00BA5A84 /* Frameworks */,
+				4D48B73919D0F40D00BA5A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHealthDemoCode;
+			productName = iHealthDemoCode;
+			productReference = 4D48B73B19D0F40D00BA5A84 /* iHealthDemoCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D48B75E19D0F40D00BA5A84 /* iHealthDemoCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D48B77319D0F40D00BA5A84 /* Build configuration list for PBXNativeTarget "iHealthDemoCodeTests" */;
+			buildPhases = (
+				4D48B75B19D0F40D00BA5A84 /* Sources */,
+				4D48B75C19D0F40D00BA5A84 /* Frameworks */,
+				4D48B75D19D0F40D00BA5A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D48B76519D0F40D00BA5A84 /* PBXTargetDependency */,
+			);
+			name = iHealthDemoCodeTests;
+			productName = iHealthDemoCodeTests;
+			productReference = 4D48B75F19D0F40D00BA5A84 /* iHealthDemoCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D48B73319D0F40D00BA5A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "zhiwei jing";
+				TargetAttributes = {
+					4D48B73A19D0F40D00BA5A84 = {
+						DevelopmentTeam = 3Q553VZ29W;
+					};
+					4D48B75E19D0F40D00BA5A84 = {
+						DevelopmentTeam = 45P48R488J;
+						TestTargetID = 4D48B73A19D0F40D00BA5A84;
+					};
+				};
+			};
+			buildConfigurationList = 4D48B73619D0F40D00BA5A84 /* Build configuration list for PBXProject "iHealthDemoCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D48B73219D0F40D00BA5A84;
+			productRefGroup = 4D48B73C19D0F40D00BA5A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D48B73A19D0F40D00BA5A84 /* iHealthDemoCode */,
+				4D48B75E19D0F40D00BA5A84 /* iHealthDemoCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D48B73919D0F40D00BA5A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D48B75A19D0F40D00BA5A84 /* Images.xcassets in Resources */,
+				4D48B74919D0F40D00BA5A84 /* InfoPlist.strings in Resources */,
+				4D48B75219D0F40D00BA5A84 /* Main.storyboard in Resources */,
+				8602E24D1CF3ED6A00214CEC /* AM4ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D48B75D19D0F40D00BA5A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D48B76B19D0F40D00BA5A84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D48B73719D0F40D00BA5A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D48B74F19D0F40D00BA5A84 /* AppDelegate.m in Sources */,
+				4D48B78419D0F8FC00BA5A84 /* BGViewController.m in Sources */,
+				86BE1E631CF2EECD006107E3 /* AMViewController.m in Sources */,
+				4D48B78119D0F8F000BA5A84 /* POViewController.m in Sources */,
+				4D48B77819D0F67900BA5A84 /* BPViewController.m in Sources */,
+				4D48B74B19D0F40D00BA5A84 /* main.m in Sources */,
+				4D48B77B19D0F74000BA5A84 /* HSViewController.m in Sources */,
+				8602E24C1CF3ED6A00214CEC /* AM4ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D48B75B19D0F40D00BA5A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D48B76D19D0F40D00BA5A84 /* iHealthDemoCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D48B76519D0F40D00BA5A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D48B73A19D0F40D00BA5A84 /* iHealthDemoCode */;
+			targetProxy = 4D48B76419D0F40D00BA5A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D48B74719D0F40D00BA5A84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D48B74819D0F40D00BA5A84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D48B75019D0F40D00BA5A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D48B75119D0F40D00BA5A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D48B76919D0F40D00BA5A84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D48B76A19D0F40D00BA5A84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D48B76E19D0F40D00BA5A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jing zhiwei (NJ3DW8F6W7)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "dcadc8d8-aaeb-43df-b890-da39c34e2085";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D48B76F19D0F40D00BA5A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "dcadc8d8-aaeb-43df-b890-da39c34e2085";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D48B77119D0F40D00BA5A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jing zhiwei (NJ3DW8F6W7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealthDemoCode/iHealthDemoCode-Prefix.pch";
+				INFOPLIST_FILE = "iHealthDemoCode/iHealthDemoCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthDemoCode/HSModel",
+					"$(PROJECT_DIR)/iHealthDemoCode/include",
+					"$(PROJECT_DIR)/iHealthDemoCode",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com1.ihealthlabs.ssff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dcadc8d8-aaeb-43df-b890-da39c34e2085";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D48B77219D0F40D00BA5A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealthDemoCode/iHealthDemoCode-Prefix.pch";
+				INFOPLIST_FILE = "iHealthDemoCode/iHealthDemoCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthDemoCode/HSModel",
+					"$(PROJECT_DIR)/iHealthDemoCode/include",
+					"$(PROJECT_DIR)/iHealthDemoCode",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com1.ihealthlabs.ssff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dcadc8d8-aaeb-43df-b890-da39c34e2085";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D48B77419D0F40D00BA5A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHealthDemoCode.app/iHealthDemoCode";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dai qingquan (QNUCHT6Y8Q)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealthDemoCode/iHealthDemoCode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iHealthDemoCodeTests/iHealthDemoCodeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.xxx.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "92a5e56b-8f15-47b2-b83c-25af21d2f25b";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D48B77519D0F40D00BA5A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHealthDemoCode.app/iHealthDemoCode";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealthDemoCode/iHealthDemoCode-Prefix.pch";
+				INFOPLIST_FILE = "iHealthDemoCodeTests/iHealthDemoCodeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.xxx.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "92a5e56b-8f15-47b2-b83c-25af21d2f25b";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D48B73619D0F40D00BA5A84 /* Build configuration list for PBXProject "iHealthDemoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D48B76E19D0F40D00BA5A84 /* Debug */,
+				4D48B76F19D0F40D00BA5A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D48B77019D0F40D00BA5A84 /* Build configuration list for PBXNativeTarget "iHealthDemoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D48B77119D0F40D00BA5A84 /* Debug */,
+				4D48B77219D0F40D00BA5A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D48B77319D0F40D00BA5A84 /* Build configuration list for PBXNativeTarget "iHealthDemoCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D48B77419D0F40D00BA5A84 /* Debug */,
+				4D48B77519D0F40D00BA5A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D48B73319D0F40D00BA5A84 /* Project object */;
+}

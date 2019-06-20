@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ADDCC486FB5983CE97F7FB0284A9D4DD61D754B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ADDCC486FB5983CE97F7FB0284A9D4DD61D754B7" : 9223372036854775807,
+    "C5685E5F689A7B5C711A78F5F708C2F3F93BC619" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F4C78BBA-ED73-41A1-94DA-EFCA97E34067",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ADDCC486FB5983CE97F7FB0284A9D4DD61D754B7" : "HeartValve.iOS\/",
+    "C5685E5F689A7B5C711A78F5F708C2F3F93BC619" : "HeartValve.iOS\/HeartValve\/iHealthDeviceLabs-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HeartValve",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HeartValve\/HeartValve.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tfs-tachl.mdc.musc.edu:8080\/tfs\/DefaultCollection\/HeartValve\/_git\/HeartValve.iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ADDCC486FB5983CE97F7FB0284A9D4DD61D754B7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iHealthDeviceLabs\/iHealthDeviceLabs-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C5685E5F689A7B5C711A78F5F708C2F3F93BC619"
+    }
+  ]
+}

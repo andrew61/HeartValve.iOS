@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AM4 Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">ynote </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">youdao</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/commandAM4CreateUserManageConnectWithUser:withAuthenticationResult:withCurrentUserID:withErrorBlock:">- commandAM4CreateUserManageConnectWithUser:withAuthenticationResult:withCurrentUserID:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4DeleteAlarmID:withFinishResult:withErrorBlock:">- commandAM4DeleteAlarmID:withFinishResult:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4Disconnect:withErrorBlock:">- commandAM4Disconnect:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4GetDeviceStateInfo:withBattery:withErrorBlock:">- commandAM4GetDeviceStateInfo:withBattery:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4GetDeviceUserID:withFromCloudGetUserBinedDeviceMAC:withErrorBlock:">- commandAM4GetDeviceUserID:withFromCloudGetUserBinedDeviceMAC:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4GetReminderInfo:withErrorBlock:">- commandAM4GetReminderInfo:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4GetSwimmingInfo:withErrorBlock:">- commandAM4GetSwimmingInfo:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4GetTimeFormatAndNation:withErrorBlock:">- commandAM4GetTimeFormatAndNation:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4GetTotoalAlarmInfo:withErrorBlock:">- commandAM4GetTotoalAlarmInfo:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4GetUserInfo:withErrorBlock:">- commandAM4GetUserInfo:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4ResetDevice:withFromCloudDisBinedDevice:withErrorBlock:">- commandAM4ResetDevice:withFromCloudDisBinedDevice:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SetAlarmDictionary:withFinishResult:withErrorBlock:">- commandAM4SetAlarmDictionary:withFinishResult:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SetRandomNumber:withErrorBlock:">- commandAM4SetRandomNumber:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SetReminderDictionary:withFinishResult:withErrorBlock:">- commandAM4SetReminderDictionary:withFinishResult:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SetSwimmingState:withSwimmingPoolLength:withNOSwimmingTime:withUnit:withFinishResult:withErrorBlock:">- commandAM4SetSwimmingState:withSwimmingPoolLength:withNOSwimmingTime:withUnit:withFinishResult:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SetTimeFormatAndNation:withErrorBlock:">- commandAM4SetTimeFormatAndNation:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SetUserID:withFinishResult:withSetCloudBinedDevice:withErrorBlock:">- commandAM4SetUserID:withFinishResult:withSetCloudBinedDevice:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SetUserInfo:withUnit:withActiveGoal:withSwimmingGoal:withSetUserInfoFinishResult:withSetBMR:withErrorBlock:">- commandAM4SetUserInfo:withUnit:withActiveGoal:withSwimmingGoal:withSetUserInfoFinishResult:withSetBMR:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4StartSyncActiveData:withActiveHistoryData:withActiveFinishTransmission:withErrorBlock:">- commandAM4StartSyncActiveData:withActiveHistoryData:withActiveFinishTransmission:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4StartSyncCurrentActiveData:withErrorBlock:">- commandAM4StartSyncCurrentActiveData:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4StartSyncSleepData:withSleepHistoryData:withSleepFinishTransmission:withErrorBlock:">- commandAM4StartSyncSleepData:withSleepHistoryData:withSleepFinishTransmission:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4StartSyncStageData:withStageDataFinishTransmission:withErrorBlock:">- commandAM4StartSyncStageData:withStageDataFinishTransmission:withErrorBlock:</option>
+		
+		<option value="//api/name/commandAM4SyncTime:withErrorBlock:">- commandAM4SyncTime:withErrorBlock:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AM4 Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AM4.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/commandAM4CreateUserManageConnectWithUser:withAuthenticationResult:withCurrentUserID:withErrorBlock:" title="commandAM4CreateUserManageConnectWithUser:withAuthenticationResult:withCurrentUserID:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4CreateUserManageConnectWithUser:withAuthenticationResult:withCurrentUserID:withErrorBlock:">&ndash;&nbsp;commandAM4CreateUserManageConnectWithUser:withAuthenticationResult:withCurrentUserID:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Establish memory and measurement connection,Only after verification through this interface can we move onto using other API&rsquo;s.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4CreateUserManageConnectWithUser:(HealthUser *)<em>tempUser</em> withAuthenticationResult:(BlockUserAuthentication)<em>authenticationResultBlock</em> withCurrentUserID:(CurrentSerialNub)<em>currentUserIDBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tempUser</code></th>
+						<td><p>includes properties：clientID，clientSecret，userID.userID，either email or mobile phone number (mobile phone number not yet supported).ClientID and clientSecret, the only identification for users of the SDK, requires registration from iHealth administrator, please email:lvjincan@ihealthlabs.com.cn.com for more information</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>currentUserIDBlock</code></th>
+						<td><p>Uniquely identifies the user, the SDK requires this to be stored. This ID will be sent to the AM4 and will allow the AM4 to pair with only this user.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>disposeAuthenticationBlock</code></th>
+						<td><p>The return parameters of ’‘userid’, ’clientID’,and ‘clientSecret’ after verification.
+The interpretation for the verification:
+1. UserAuthen_RegisterSuccess, New-user registration succeeded.
+2. UserAuthen_LoginSuccess， User login succeeded.
+3. UserAuthen_CombinedSuccess, The user is iHealth user as well, measurement via SDK has been activated, and the data from the measurement belongs to the user.
+4. UserAuthen_TrySuccess, testing without Internet connection succeeded.
+5. UserAuthen_InvalidateUserInfo, Userid/clientID/clientSecret verification failed.
+6. UserAuthen_SDKInvalidateRight, SDK has not been authorized.
+7. UserAuthen_UserInvalidateRight,User has not been authorized.
+8. UserAuthen_InternetError, Internet error, verification failed.
+&ndash;PS:
+The measurement via SDK will be operated in the case of 1-3, and will be terminated if any of 4-8 occurs. The interface needs to be re-called after analyzing the return parameters.
+@Notice  Notice: when a new user registers via SDK, an ‘iHealth disclaimer’ will pop up automatically, and will require the user to agree in order to continue. SDK applications require an Internet connection.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Establish memory and measurement connection,Only after verification through this interface can we move onto using other API&rsquo;s.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4GetDeviceUserID:withFromCloudGetUserBinedDeviceMAC:withErrorBlock:" title="commandAM4GetDeviceUserID:withFromCloudGetUserBinedDeviceMAC:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4GetDeviceUserID:withFromCloudGetUserBinedDeviceMAC:withErrorBlock:">&ndash;&nbsp;commandAM4GetDeviceUserID:withFromCloudGetUserBinedDeviceMAC:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get device userID and user bined sevice MAC Address</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4GetDeviceUserID:(DisposeAM4GetDeviceUserIDBlock)<em>getDeviceUserIDBlock</em> withFromCloudGetUserBinedDeviceMAC:(DisposeAM4GetUserBinedDeviceMACBlock)<em>userBinedDeviceMACBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>getDeviceUserIDBlock</code></th>
+						<td><p>The connected user&rsquo;s MAC Address</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userBinedDeviceMACBlock</code></th>
+						<td><p>The user&rsquo;s AM4 MAC Address</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get device userID and user bined sevice MAC Address</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SetRandomNumber:withErrorBlock:" title="commandAM4SetRandomNumber:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SetRandomNumber:withErrorBlock:">&ndash;&nbsp;commandAM4SetRandomNumber:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sending a random number,This API sends a random number to the AM4. Only when the random number matches the number displayed on the AM4 screen can the device be bound to the device.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SetRandomNumber:(DisposeAM4SetRandomNumberBlock)<em>setRandomNumberBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>setRandomNumberBlock</code></th>
+						<td><p>True: Sent successfully，False: Failed。Random number is six digits, ranging from 0 – 999999. AM4 will receive the random number and display on screen. The user will have to enter it into the app.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sending a random number,This API sends a random number to the AM4. Only when the random number matches the number displayed on the AM4 screen can the device be bound to the device.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SyncTime:withErrorBlock:" title="commandAM4SyncTime:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SyncTime:withErrorBlock:">&ndash;&nbsp;commandAM4SyncTime:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sync time</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SyncTime:(DisposeAM4SyncTimeBlock)<em>syncTimeBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>syncTimeBlock</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sync time</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SetTimeFormatAndNation:withErrorBlock:" title="commandAM4SetTimeFormatAndNation:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SetTimeFormatAndNation:withErrorBlock:">&ndash;&nbsp;commandAM4SetTimeFormatAndNation:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set time format and nation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SetTimeFormatAndNation:(DisposeAM4TimeFormatAndNationSettingBlock)<em>setTimeFormatBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>setTimeFormatBlock</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set time format and nation</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SetUserID:withFinishResult:withSetCloudBinedDevice:withErrorBlock:" title="commandAM4SetUserID:withFinishResult:withSetCloudBinedDevice:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SetUserID:withFinishResult:withSetCloudBinedDevice:withErrorBlock:">&ndash;&nbsp;commandAM4SetUserID:withFinishResult:withSetCloudBinedDevice:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Binding AM4 to user,Account binding requires an active internet connection.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SetUserID:(NSNumber *)<em>userID</em> withFinishResult:(DisposeAM4SetDeviceUserIDBlock)<em>finishResultBlock</em> withSetCloudBinedDevice:(DisposeAM4SetCloudBinedDevice)<em>cloudBinedDevice</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userID</code></th>
+						<td><p>userID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>finishResultBlock</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cloudBinedDevice</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Binding AM4 to user,Account binding requires an active internet connection.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SetUserInfo:withUnit:withActiveGoal:withSwimmingGoal:withSetUserInfoFinishResult:withSetBMR:withErrorBlock:" title="commandAM4SetUserInfo:withUnit:withActiveGoal:withSwimmingGoal:withSetUserInfoFinishResult:withSetBMR:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SetUserInfo:withUnit:withActiveGoal:withSwimmingGoal:withSetUserInfoFinishResult:withSetBMR:withErrorBlock:">&ndash;&nbsp;commandAM4SetUserInfo:withUnit:withActiveGoal:withSwimmingGoal:withSetUserInfoFinishResult:withSetBMR:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>AM4 initialization,Must be called the first time to ensure that the AM4 has correct user information, goals, time, battery checks, etc.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SetUserInfo:(HealthUser *)<em>user</em> withUnit:(AM4KmUnit)<em>unit</em> withActiveGoal:(NSNumber *)<em>activeGoalNumber</em> withSwimmingGoal:(NSNumber *)<em>swimmingGoal</em> withSetUserInfoFinishResult:(DisposeAM4SetUserInfoBlock)<em>setUserInfoFinishBlock</em> withSetBMR:(DisposeAM4SetBMRBlock)<em>setBMRfinishResultBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>user</code></th>
+						<td><p>User information, needs to include the following：birthday(NSDate)、height(cm)、weight(kg)、bmr(user basal metabolic)、sex(UserSex_Female or UserSex_Male)、activityLevel (activityLevel=1, Sedentary,spend most of day sitting.activityLevel=2, Active,spend a good part of day doing some physical activity.activityLevel=3, Very Active,spend most of day doing heavy physical activity.)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>unit</code></th>
+						<td><p>AM4KmUnit_mile or AM4KmUnit_km</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>activeGoalNumber</code></th>
+						<td><p>User goal number of steps. Default is 10,000</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>swimmingGoal</code></th>
+						<td><p>User goal number of swimming.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>setUserInfoFinishBlock</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>setBMRfinishResultBlock</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>AM4 initialization,Must be called the first time to ensure that the AM4 has correct user information, goals, time, battery checks, etc.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SetSwimmingState:withSwimmingPoolLength:withNOSwimmingTime:withUnit:withFinishResult:withErrorBlock:" title="commandAM4SetSwimmingState:withSwimmingPoolLength:withNOSwimmingTime:withUnit:withFinishResult:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SetSwimmingState:withSwimmingPoolLength:withNOSwimmingTime:withUnit:withFinishResult:withErrorBlock:">&ndash;&nbsp;commandAM4SetSwimmingState:withSwimmingPoolLength:withNOSwimmingTime:withUnit:withFinishResult:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set swimming</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SetSwimmingState:(BOOL)<em>swimmingIsOpen</em> withSwimmingPoolLength:(NSNumber *)<em>swimmingPoolLength</em> withNOSwimmingTime:(NSDate *)<em>noSwimmingDate</em> withUnit:(AM4SwimmingUnit)<em>unit</em> withFinishResult:(DisposeAM4SettingSwimmingBlock)<em>finishResultBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>swimmingIsOpen</code></th>
+						<td><p>YES:open swimming function NO:close swimming function default:no</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>swimmingPoolLength</code></th>
+						<td><p>swimming Pool Length</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>noSwimmingDate</code></th>
+						<td><p>automatic drop out swim duration</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>unit</code></th>
+						<td><p>swim unit (  AM4SwimmingUnit_m or AM4SwimmingUnit_km)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>finishResultBlock</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set swimming</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4StartSyncActiveData:withActiveHistoryData:withActiveFinishTransmission:withErrorBlock:" title="commandAM4StartSyncActiveData:withActiveHistoryData:withActiveFinishTransmission:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4StartSyncActiveData:withActiveHistoryData:withActiveFinishTransmission:withErrorBlock:">&ndash;&nbsp;commandAM4StartSyncActiveData:withActiveHistoryData:withActiveFinishTransmission:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Upload AM4 data,Data type: 5 minutes of motion data, total number of steps for the day, and total calories.Also includes the number of steps for the 5 minutes of motion data, total calories for the current time, calories of the steps, and total calories.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4StartSyncActiveData:(DisposeAM4ActiveStartTransmission)<em>activeTransmissionBlock</em> withActiveHistoryData:(DisposeAM4ActiveHistoryData)<em>activeHistoryDataBlock</em> withActiveFinishTransmission:(DisposeAM4ActiveFinishTransmission)<em>activeFinishTransmissionBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>activeTransmissionBlock</code></th>
+						<td><p>activeTransmission: Start uploading motion data, including parameters：StartActiveHistoryDate、StepSize、StartActiveHistoryTotoalNum.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>activeHistoryDataBlock</code></th>
+						<td><p>Start date，yyyy-MM-dd.StepSize：Length of each step, cm.StartActiveHistoryTotoalNum：Number of records.AM4historyData data，including the following parameters：AMDate、AMCalorie、AMStepNum.AMDate：Workout time， NSDate.AMCalorie: Current time total calories.AMStepNum：Total number of steps.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>activeFinishTransmissionBlock</code></th>
+						<td><p>Upload complete.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Upload AM4 data,Data type: 5 minutes of motion data, total number of steps for the day, and total calories.Also includes the number of steps for the 5 minutes of motion data, total calories for the current time, calories of the steps, and total calories.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4StartSyncSleepData:withSleepHistoryData:withSleepFinishTransmission:withErrorBlock:" title="commandAM4StartSyncSleepData:withSleepHistoryData:withSleepFinishTransmission:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4StartSyncSleepData:withSleepHistoryData:withSleepFinishTransmission:withErrorBlock:">&ndash;&nbsp;commandAM4StartSyncSleepData:withSleepHistoryData:withSleepFinishTransmission:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Upload AM4 data,Data type: 5 minutes of sleep data,</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4StartSyncSleepData:(DisposeAM4SleepStartTransmission)<em>sleepTransmissionBlock</em> withSleepHistoryData:(DisposeAM4SleepHistoryData)<em>sleepHistoryDataBlock</em> withSleepFinishTransmission:(DisposeAM4SleepFinishTransmission)<em>sleepFinishTransmissionBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sleepTransmissionBlock</code></th>
+						<td><p>Start uploading sleep data, including parameters：SleepActiveHistoryDate、StartActiveHistoryTotoalNum.SleepActiveHistoryDate：Sleep start time，yyyy-MM-dd HH:mm:ss.StartActiveHistoryTotoalNum: Number of records</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sleepHistoryDataBlock</code></th>
+						<td><p>Sleep data, including the following parameters:：AMDate、SleepData.AMDate：Sleep time, NSDate.SleepData: Sleep grade, 0: awake, 1: light sleep, 2: deep sleep.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sleepFinishTransmissionBlock</code></th>
+						<td><p>Upload complete.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Upload AM4 data,Data type: 5 minutes of sleep data,</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4StartSyncCurrentActiveData:withErrorBlock:" title="commandAM4StartSyncCurrentActiveData:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4StartSyncCurrentActiveData:withErrorBlock:">&ndash;&nbsp;commandAM4StartSyncCurrentActiveData:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Upload AM4 data,Data type: Sync current active data</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4StartSyncCurrentActiveData:(DisposeAM4GetCurrentActiveInfo)<em>currentActiveInfoBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>currentActiveInfoBlock</code></th>
+						<td><p>Total calories and steps for today, including parameters：Step、Calories、TotalCalories.Step：Number of steps taken today.Calories：Number of calories burned today.TotalCalories：Sum calories burned and bmr today.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Upload AM4 data,Data type: Sync current active data</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4StartSyncStageData:withStageDataFinishTransmission:withErrorBlock:" title="commandAM4StartSyncStageData:withStageDataFinishTransmission:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4StartSyncStageData:withStageDataFinishTransmission:withErrorBlock:">&ndash;&nbsp;commandAM4StartSyncStageData:withStageDataFinishTransmission:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Upload AM4 report data.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4StartSyncStageData:(DisposeAM4MeasureDataBlock)<em>stageDataBlock</em> withStageDataFinishTransmission:(DisposeAM4WorkoutFinishBlock)<em>stageDataFinishTransmissionBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>stageDataBlock</code></th>
+						<td><p>Report data, including parameters: ReportStage_Swimming、ReportStage_Work_out、ReportStage_Sleep_summary. Currently only supports ReportStage_Work_out、ReportStage_Sleep_summar.Workout contains properties：ReportState、Work_outMeasureDate、Work_outTimeNumber、Work_outStepNumber、Work_outLengthNumber、Work_outCalories.ReportState：ReportStage_Work_out.Work_outMeasureDate：Start time.Work_outTimeNumber：Length of workout (mins).Work_outStepNumber：Workout number of steps.Work_outLengthNumber：Workout distance (km).Work_outCalories：Workout calories burned.Sleep contains properties：ReportState、Sleep_summaryMeasureDate、Sleep_summarySleepTime、Sleep_summarysleepEfficiency、Sleep_summarysleepAddMinute.ReportState：ReportStage_Sleep_summary.Sleep_summaryMeasureDate：Sleep start time.Sleep_summarySleepTime: Sleep duration (mins).Sleep_summarysleepEfficiency：Sleep efficiency percentage, range is 0-100.Sleep_summarysleepAddMinute：Correct sleep duration length. Change the length of time from before falling asleep to add onto the time awake.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>stageDataFinishTransmissionBlock</code></th>
+						<td><p>YES: Success，NO: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Upload AM4 report data.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4GetTotoalAlarmInfo:withErrorBlock:" title="commandAM4GetTotoalAlarmInfo:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4GetTotoalAlarmInfo:withErrorBlock:">&ndash;&nbsp;commandAM4GetTotoalAlarmInfo:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get totoal alarm infomation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4GetTotoalAlarmInfo:(DisposeAM4TotoalAlarmData)<em>totoalAlarmInfoBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>totoalAlarmInfoBlock</code></th>
+						<td><p>Alarm array contains up to 3 alarms, each one needs the following parameters：AlarmId、Time、IsRepeat、Switch、（Sun、Mon、Tue、Wed、Thu、Fri、Sat)AlarmId：1, 2, 3.Time：HH:mm.IsRepeat：Repeat alarm， True: Repeat， False: Don&rsquo;t repeat.Switch：Alarm on/off. True: On, False: Off.Sun、Mon、Tue、Wed、Thu、Fri、Sat：True.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get totoal alarm infomation</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SetAlarmDictionary:withFinishResult:withErrorBlock:" title="commandAM4SetAlarmDictionary:withFinishResult:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SetAlarmDictionary:withFinishResult:withErrorBlock:">&ndash;&nbsp;commandAM4SetAlarmDictionary:withFinishResult:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set alarm.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SetAlarmDictionary:(NSDictionary *)<em>alarmDic</em> withFinishResult:(DisposeAM4SetAlarmBlock)<em>finishResultBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alarmDic</code></th>
+						<td><p>Alarm information, include parameters：AlarmId、Time、IsRepeat、Switch、（Sun、Mon、Tue、Wed、Thu、Fri、Sat)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>finishResultBlock</code></th>
+						<td><p>True: Alarm set successfully，False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set alarm.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4DeleteAlarmID:withFinishResult:withErrorBlock:" title="commandAM4DeleteAlarmID:withFinishResult:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4DeleteAlarmID:withFinishResult:withErrorBlock:">&ndash;&nbsp;commandAM4DeleteAlarmID:withFinishResult:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Delete alarm.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4DeleteAlarmID:(NSNumber *)<em>alarmID</em> withFinishResult:(DisposeAM4DeleteAlarmBlock)<em>finishResultBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alarmID</code></th>
+						<td><p>alarmID：1, 2, 3.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>finishResultBlock</code></th>
+						<td><p>True: Delete successful，False: Failed</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Delete alarm.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4GetReminderInfo:withErrorBlock:" title="commandAM4GetReminderInfo:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4GetReminderInfo:withErrorBlock:">&ndash;&nbsp;commandAM4GetReminderInfo:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get reminder.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4GetReminderInfo:(DisposeAM4RemindAM4InfoBlock)<em>remindInfoBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>remindInfoBlock</code></th>
+						<td><p>Array containing following parameters：Time、Switch.Time：format HH:mm, time between reminders (HH*60+mm) minutes.Switch：Reminder on/off，True: On， False: Off.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get reminder.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4SetReminderDictionary:withFinishResult:withErrorBlock:" title="commandAM4SetReminderDictionary:withFinishResult:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4SetReminderDictionary:withFinishResult:withErrorBlock:">&ndash;&nbsp;commandAM4SetReminderDictionary:withFinishResult:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set reminders.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4SetReminderDictionary:(NSDictionary *)<em>reminderDic</em> withFinishResult:(DisposeAM4SetReminderBlock)<em>finishResultBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>reminderDic</code></th>
+						<td><p>Array containing collowing parameters：Time、Switch。</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>finishResultBlock</code></th>
+						<td><p>YES: Successfully set, NO: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set reminders.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4GetDeviceStateInfo:withBattery:withErrorBlock:" title="commandAM4GetDeviceStateInfo:withBattery:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4GetDeviceStateInfo:withBattery:withErrorBlock:">&ndash;&nbsp;commandAM4GetDeviceStateInfo:withBattery:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get device state infomation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4GetDeviceStateInfo:(DisposeAM4StateInfoBlock)<em>deviceStateInfoBlock</em> withBattery:(DisposeAM4BatteryBlock)<em>batteryBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>deviceStateInfoBlock</code></th>
+						<td><p>AM status，State_wrist  (AM4 being worn on the wrist)，State_waist (AM4 worn with belt clip).</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>batteryBlock</code></th>
+						<td><p>AM battery percentage, from 0～100.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get device state infomation</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4ResetDevice:withFromCloudDisBinedDevice:withErrorBlock:" title="commandAM4ResetDevice:withFromCloudDisBinedDevice:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4ResetDevice:withFromCloudDisBinedDevice:withErrorBlock:">&ndash;&nbsp;commandAM4ResetDevice:withFromCloudDisBinedDevice:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Restore factory settings.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4ResetDevice:(DisposeAM4ResetDeviceBlock)<em>resetDeviceBlock</em> withFromCloudDisBinedDevice:(DisposeAM4FromCloudDisBinedDeviceBlock)<em>cloudDisBinedDevice</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>resetDeviceBlock</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cloudDisBinedDevice</code></th>
+						<td><p>True: Success， False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Restore factory settings.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4Disconnect:withErrorBlock:" title="commandAM4Disconnect:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4Disconnect:withErrorBlock:">&ndash;&nbsp;commandAM4Disconnect:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Disconnect AM4 connection.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4Disconnect:(DisposeAM4DisconnectBlock)<em>disconnectBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>disconnectBlock</code></th>
+						<td><p>True: Success，False: Failed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Disconnect AM4 connection.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4GetTimeFormatAndNation:withErrorBlock:" title="commandAM4GetTimeFormatAndNation:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4GetTimeFormatAndNation:withErrorBlock:">&ndash;&nbsp;commandAM4GetTimeFormatAndNation:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get time format and nation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4GetTimeFormatAndNation:(DisposeAM4TimeFormatAndNationBlock)<em>timeAndNationBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>timeAndNationBlock</code></th>
+						<td><p>(AM4TimeFormat_hh,AM4TimeFormat_HH,AM4TimeFormat_NoEuropeAndhh,AM4TimeFormat_EuropeAndhh,AM4TimeFormat_NoEuropeAndHH,AM4TimeFormat_EuropeAndHH)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get time format and nation</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4GetUserInfo:withErrorBlock:" title="commandAM4GetUserInfo:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4GetUserInfo:withErrorBlock:">&ndash;&nbsp;commandAM4GetUserInfo:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get user infomation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4GetUserInfo:(DisposeAM4UserInfoBlock)<em>userInfoBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfoBlock</code></th>
+						<td><p>including parameters:age,steplength,height,gender,weight,unit,goal</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get user infomation</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/commandAM4GetSwimmingInfo:withErrorBlock:" title="commandAM4GetSwimmingInfo:withErrorBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/commandAM4GetSwimmingInfo:withErrorBlock:">&ndash;&nbsp;commandAM4GetSwimmingInfo:withErrorBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get swimming infomation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)commandAM4GetSwimmingInfo:(DisposeAM4SwimmingBlock)<em>swimmingInfoBlock</em> withErrorBlock:(DisposeAM4ErrorBlock)<em>errorBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>swimmingInfoBlock</code></th>
+						<td><p>including parameters:swimmingIsOpen,swimmingPoollength,NOSwimmingTime,unit</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlock</code></th>
+						<td><p>Communication error codes, see AM4 error descriptions.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get swimming infomation</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AM4.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2016 youdao. All rights reserved. Updated: 2016-06-17</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

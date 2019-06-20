@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="MyHealthApp/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+    </header>
+    <body>
+      <trans-unit id="Itp-3r-KWY.text">
+        <source>  Copyright (c) 2016 MUSC. All rights reserved.</source>
+        <target>  Copyright (c) 2016 MUSC. All rights reserved.</target>
+        <note>Class = "UILabel"; text = "  Copyright (c) 2016 MUSC. All rights reserved."; ObjectID = "Itp-3r-KWY";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MyHealthApp/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+    </header>
+    <body>
+      <trans-unit id="0Np-fD-oFT.text">
+        <source>Systolic</source>
+        <target>sistólica</target>
+        <note>Class = "UILabel"; text = "Systolic"; ObjectID = "0Np-fD-oFT";</note>
+      </trans-unit>
+      <trans-unit id="3kN-vE-aLV.normalTitle">
+        <source>Manual Entry</source>
+        <target>Entrada manual</target>
+        <note>Class = "UIButton"; normalTitle = "Manual Entry"; ObjectID = "3kN-vE-aLV";</note>
+      </trans-unit>
+      <trans-unit id="7lH-PE-fh5.normalTitle">
+        <source>Log in</source>
+        <target>Iniciar sesión</target>
+        <note>Class = "UIButton"; normalTitle = "Log in"; ObjectID = "7lH-PE-fh5";</note>
+      </trans-unit>
+      <trans-unit id="8RO-TD-3X7.text">
+        <source>Map</source>
+        <target>Mapa</target>
+        <note>Class = "UILabel"; text = "Map"; ObjectID = "8RO-TD-3X7";</note>
+      </trans-unit>
+      <trans-unit id="23O-o1-V1r.title">
+        <source>Blood Glucose</source>
+        <target>glucosa en la Sangre</target>
+        <note>Class = "UINavigationItem"; title = "Blood Glucose"; ObjectID = "23O-o1-V1r";</note>
+      </trans-unit>
+      <trans-unit id="56s-YT-Pur.title">
+        <source>Blood Pressure</source>
+        <target>presión arterial</target>
+        <note>Class = "UINavigationItem"; title = "Blood Pressure"; ObjectID = "56s-YT-Pur";</note>
+      </trans-unit>
+      <trans-unit id="238-pZ-dnZ.text">
+        <source>Blood Pressure</source>
+        <target>presión arterial</target>
+        <note>Class = "UILabel"; text = "Blood Pressure"; ObjectID = "238-pZ-dnZ";</note>
+      </trans-unit>
+      <trans-unit id="Abg-0Q-dIk.normalTitle">
+        <source>Manual Entry</source>
+        <target>Entrada manual</target>
+        <note>Class = "UIButton"; normalTitle = "Manual Entry"; ObjectID = "Abg-0Q-dIk";</note>
+      </trans-unit>
+      <trans-unit id="DCF-Kt-Dbh.headerTitle">
+        <source>Measurements</source>
+        <target>mediciones</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Measurements"; ObjectID = "DCF-Kt-Dbh";</note>
+      </trans-unit>
+      <trans-unit id="Dor-ge-IY2.title">
+        <source>My Health App</source>
+        <target>My Health App</target>
+        <note>Class = "UINavigationItem"; title = "My Health App"; ObjectID = "Dor-ge-IY2";</note>
+      </trans-unit>
+      <trans-unit id="F8M-Fv-VGk.title">
+        <source>Weight</source>
+        <target>Peso</target>
+        <note>Class = "UINavigationItem"; title = "Weight"; ObjectID = "F8M-Fv-VGk";</note>
+      </trans-unit>
+      <trans-unit id="Fp8-Og-4X5.text">
+        <source>Take Survey</source>
+        <target>Tome Encuesta</target>
+        <note>Class = "UILabel"; text = "Take Survey"; ObjectID = "Fp8-Og-4X5";</note>
+      </trans-unit>
+      <trans-unit id="Jqh-BY-TCS.title">
+        <source> </source>
+        <target> </target>
+        <note>Class = "UIBarButtonItem"; title = " "; ObjectID = "Jqh-BY-TCS";</note>
+      </trans-unit>
+      <trans-unit id="Jwf-34-B72.text">
+        <source>lbs</source>
+        <target>lbs</target>
+        <note>Class = "UILabel"; text = "lbs"; ObjectID = "Jwf-34-B72";</note>
+      </trans-unit>
+      <trans-unit id="MX7-Gd-aB3.text">
+        <source>Blood Glucose</source>
+        <target>glucosa en la Sangre</target>
+        <note>Class = "UILabel"; text = "Blood Glucose"; ObjectID = "MX7-Gd-aB3";</note>
+      </trans-unit>
+      <trans-unit id="NW4-9K-5fm.title">
+        <source> </source>
+        <target> </target>
+        <note>Class = "UIBarButtonItem"; title = " "; ObjectID = "NW4-9K-5fm";</note>
+      </trans-unit>
+      <trans-unit id="Nl2-l0-3t5.title">
+        <source>Survey</source>
+        <target>Encuesta</target>
+        <note>Class = "UINavigationItem"; title = "Survey"; ObjectID = "Nl2-l0-3t5";</note>
+      </trans-unit>
+      <trans-unit id="Nos-dS-xrT.title">
+        <source>Weight</source>
+        <target>Peso</target>
+        <note>Class = "UINavigationItem"; title = "Weight"; ObjectID = "Nos-dS-xrT";</note>
+      </trans-unit>
+      <trans-unit id="OTP-83-J9c.text">
+        <source>Blood Glucose</source>
+        <target>glucosa en la Sangre</target>
+        <note>Class = "UILabel"; text = "Blood Glucose"; ObjectID = "OTP-83-J9c";</note>
+      </trans-unit>
+      <trans-unit id="QM6-H5-NHs.title">
+        <source> </source>
+        <target> </target>
+        <note>Class = "UIBarButtonItem"; title = " "; ObjectID = "QM6-H5-NHs";</note>
+      </trans-unit>
+      <trans-unit id="U2V-Ng-QvQ.placeholder">
+        <source>Password</source>
+        <target>Clave</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "U2V-Ng-QvQ";</note>
+      </trans-unit>
+      <trans-unit id="U2V-Ng-QvQ.text">
+        <source>Tachl!1234</source>
+        <target>Tachl!1234</target>
+        <note>Class = "UITextField"; text = "Tachl!1234"; ObjectID = "U2V-Ng-QvQ";</note>
+      </trans-unit>
+      <trans-unit id="cyk-rh-jOU.placeholder">
+        <source>Username</source>
+        <target>Nombre de usuario</target>
+        <note>Class = "UITextField"; placeholder = "Username"; ObjectID = "cyk-rh-jOU";</note>
+      </trans-unit>
+      <trans-unit id="cyk-rh-jOU.text">
+        <source>tindaljo@musc.edu</source>
+        <target>tindaljo@musc.edu</target>
+        <note>Class = "UITextField"; text = "tindaljo@musc.edu"; ObjectID = "cyk-rh-jOU";</note>
+      </trans-unit>
+      <trans-unit id="f0J-bJ-iGr.normalTitle">
+        <source>Take Weight</source>
+        <target>Tome Peso</target>
+        <note>Class = "UIButton"; normalTitle = "Take Weight"; ObjectID = "f0J-bJ-iGr";</note>
+      </trans-unit>
+      <trans-unit id="ics-86-C8y.text">
+        <source>Log Out</source>
+        <target>Cerrar sesión</target>
+        <note>Class = "UILabel"; text = "Log Out"; ObjectID = "ics-86-C8y";</note>
+      </trans-unit>
+      <trans-unit id="jZW-YI-rXj.text">
+        <source>Diastolic</source>
+        <target>diastólica</target>
+        <note>Class = "UILabel"; text = "Diastolic"; ObjectID = "jZW-YI-rXj";</note>
+      </trans-unit>
+      <trans-unit id="lEK-VN-bnV.title">
+        <source>Blood Pressure</source>
+        <target>presión arterial</target>
+        <note>Class = "UINavigationItem"; title = "Blood Pressure"; ObjectID = "lEK-VN-bnV";</note>
+      </trans-unit>
+      <trans-unit id="nC2-ZI-SWT.normalTitle">
+        <source>Take Blood Pressure</source>
+        <target>Tomar la presión arterial</target>
+        <note>Class = "UIButton"; normalTitle = "Take Blood Pressure"; ObjectID = "nC2-ZI-SWT";</note>
+      </trans-unit>
+      <trans-unit id="pxP-0I-bSN.text">
+        <source>mg/dL</source>
+        <target>mg/dL</target>
+        <note>Class = "UILabel"; text = "mg/dL"; ObjectID = "pxP-0I-bSN";</note>
+      </trans-unit>
+      <trans-unit id="rql-8l-1Y2.text">
+        <source>Weight</source>
+        <target>Peso</target>
+        <note>Class = "UILabel"; text = "Weight"; ObjectID = "rql-8l-1Y2";</note>
+      </trans-unit>
+      <trans-unit id="v51-uh-fFg.headerTitle">
+        <source>EMA</source>
+        <target>EMA</target>
+        <note>Class = "UITableViewSection"; headerTitle = "EMA"; ObjectID = "v51-uh-fFg";</note>
+      </trans-unit>
+      <trans-unit id="zqG-CH-l87.text">
+        <source>Pulse</source>
+        <target>pulso</target>
+        <note>Class = "UILabel"; text = "Pulse"; ObjectID = "zqG-CH-l87";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MyHealthApp/Localizable.strings" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+    </header>
+    <body>
+      <trans-unit id="Create a new passcode">
+        <source>Create a new passcode</source>
+        <target>Crear un nuevo código de acceso</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Loading...">
+        <source>Loading...</source>
+        <target>Cargando...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Logging in...">
+        <source>Logging in...</source>
+        <target>Iniciar sesión en...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Login Failed">
+        <source>Login Failed</source>
+        <target>Error de inicio de sesión</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="My Health App">
+        <source>My Health App</source>
+        <target>My Health App</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please make sure you have a stable internet connection.">
+        <source>Please make sure you have a stable internet connection.</source>
+        <target>Por favor, asegúrese de tener una conexión estable a Internet.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please make sure you have both of the following:\n\n 1. A stable internet connection\n\n 2. The correct username and password">
+          <source>Please make sure you have both of the following:
+              
+ 1. A stable internet connection
+              
+ 2. The correct username and password</source>
+        <target>Por favor asegúrese de que usted tiene tanto de la siguiente:
+
+ 1. Una conexión estable a Internet
+
+ 2. El nombre de usuario y la contraseña correctos</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save Failed!">
+        <source>Save Failed!</source>
+        <target>Error al guardar!</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Saved!">
+        <source>Saved!</source>
+        <target>Guardado!</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Saving...">
+        <source>Saving...</source>
+        <target>Guardar...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Step on the scale now">
+        <source>Step on the scale now</source>
+        <target>Paso en la escala ahora</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Take Blood Pressure">
+        <source>Take Blood Pressure</source>
+        <target>Tomar la presión arterial</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Take Weight">
+        <source>Take Weight</source>
+        <target>Tome Peso</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Take your blood pressure now">
+        <source>Take your blood pressure now</source>
+        <target>Tome su presión arterial ahora</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Verify your passcode">
+        <source>Verify your passcode</source>
+        <target>Verifique su contraseña</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Waiting...">
+        <source>Waiting...</source>
+        <target>Esperando...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MyHealthApp/MyHealtApp.plist" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>MyHealthApp</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PINGS.plist" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>PINGS</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SMASH.plist" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>SMASH</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SMASK.plist" source-language="en" datatype="plaintext" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>SMASK</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

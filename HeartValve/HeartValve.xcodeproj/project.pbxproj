@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28026C6B1DFB4E9800593BAE /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C6A1DFB4E9800593BAE /* CameraVC.swift */; };
+		28026C6D1DFB4ECB00593BAE /* SurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C6C1DFB4ECB00593BAE /* SurveyVC.swift */; };
+		28026C6F1DFB4F5600593BAE /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28026C6E1DFB4F5600593BAE /* AVKit.framework */; };
+		28026C711DFEE82400593BAE /* Survey.m in Sources */ = {isa = PBXBuildFile; fileRef = 28026C701DFEE82400593BAE /* Survey.m */; };
+		28026C751DFEF2DC00593BAE /* SurveyQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 28026C741DFEF2DC00593BAE /* SurveyQuestion.m */; };
+		28026C781DFEFE7D00593BAE /* SurveyQuestionOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28026C771DFEFE7D00593BAE /* SurveyQuestionOptions.m */; };
+		28026C7A1DFF04A900593BAE /* YesNoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C791DFF04A900593BAE /* YesNoVC.swift */; };
+		28026C7D1DFF076200593BAE /* SurveyAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28026C7C1DFF076200593BAE /* SurveyAnswer.m */; };
+		28026C7F1DFF237800593BAE /* SingleChoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C7E1DFF237800593BAE /* SingleChoiceVC.swift */; };
+		28026C811DFF25D100593BAE /* ChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C801DFF25D100593BAE /* ChoiceCell.swift */; };
+		28026C831DFF3B3400593BAE /* MultipleChoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C821DFF3B3400593BAE /* MultipleChoiceVC.swift */; };
+		28026C851DFF3B4800593BAE /* ScaleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C841DFF3B4800593BAE /* ScaleVC.swift */; };
+		28026C871DFF3B6900593BAE /* TrueFalseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C861DFF3B6900593BAE /* TrueFalseVC.swift */; };
+		28026C891DFF3BBD00593BAE /* CompletedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C881DFF3BBD00593BAE /* CompletedVC.swift */; };
+		28026C8B1DFF439500593BAE /* NumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C8A1DFF439500593BAE /* NumberVC.swift */; };
+		28026C8D1DFF44F000593BAE /* FreeTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C8C1DFF44EF00593BAE /* FreeTextVC.swift */; };
+		28026C8F1E002C8F00593BAE /* ContinueSurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28026C8E1E002C8F00593BAE /* ContinueSurveyVC.swift */; };
+		28AC2BAD1E55F5C000F0CB28 /* Enrollment.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2BAC1E55F5C000F0CB28 /* Enrollment.m */; };
+		28AC2BAF1E560B1C00F0CB28 /* BehavioralSurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2BAE1E560B1C00F0CB28 /* BehavioralSurveyVC.swift */; };
+		534426451EB7C670004E1D87 /* RegistrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 534426441EB7C670004E1D87 /* RegistrationVC.m */; };
+		538DA15A1F472ED3006C4A5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538DA1591F472ED3006C4A5E /* MainViewController.m */; };
+		538DA15E1F47356F006C4A5E /* BPStep1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538DA15D1F47356F006C4A5E /* BPStep1ViewController.m */; };
+		538DA1611F47359C006C4A5E /* BPStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538DA1601F47359C006C4A5E /* BPStep2ViewController.m */; };
+		539369CB1FA9162D00B4EF3D /* PairingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 539369CA1FA9162D00B4EF3D /* PairingVC.m */; };
+		53C0FFD62006C9080085B3BD /* ActivationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C0FFD52006C9080085B3BD /* ActivationStatus.m */; };
+		53CC70A61FA93B2700C50D18 /* WeightScalePairingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC70A51FA93B2700C50D18 /* WeightScalePairingVC.m */; };
+		53CC70A91FA9469B00C50D18 /* BPMonitorPairingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC70A81FA9469B00C50D18 /* BPMonitorPairingVC.m */; };
+		53CC70AC1FA946B800C50D18 /* PulseOximeterPairingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC70AB1FA946B800C50D18 /* PulseOximeterPairingVC.m */; };
+		AB058A481C983437003C7307 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB058A471C983437003C7307 /* NotificationManager.m */; };
+		AB12A6661C5D1F3200B1AF25 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB12A6651C5D1F3200B1AF25 /* libsqlite3.tbd */; };
+		AB12A6691C5D212A00B1AF25 /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB12A6681C5D212A00B1AF25 /* DbManager.m */; };
+		AB1561901CA3154000DB391F /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB15618F1CA3154000DB391F /* TelerikUI.framework */; };
+		AB1821671C63EFDB0077BBFA /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1821661C63EFDB0077BBFA /* CrashReporter.framework */; };
+		AB18216A1C693A990077BBFA /* DateFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1821691C693A990077BBFA /* DateFormatters.m */; };
+		AB18216C1C6B95370077BBFA /* HeartValve.sql in Resources */ = {isa = PBXBuildFile; fileRef = AB18216B1C6B95370077BBFA /* HeartValve.sql */; };
+		AB1BEB581C54183C00DD7170 /* TimerUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BEB571C54183C00DD7170 /* TimerUIApplication.m */; };
+		AB1BEB5C1C546BAB00DD7170 /* UIColor+HexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BEB5B1C546BAB00DD7170 /* UIColor+HexValue.m */; };
+		AB1BEB5F1C54930200DD7170 /* HomeNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BEB5E1C54930200DD7170 /* HomeNavigationVC.m */; };
+		AB4821451C493C0F0032252C /* BloodGlucoseMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4821441C493C0F0032252C /* BloodGlucoseMeasurement.m */; };
+		AB4821481C493E360032252C /* BloodGlucoseManualVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4821471C493E360032252C /* BloodGlucoseManualVC.m */; };
+		AB48214B1C49630E0032252C /* EMASurveyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AB48214A1C49630E0032252C /* EMASurveyVC.m */; };
+		AB4911FC1C21CD3300301980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4911FB1C21CD3300301980 /* main.m */; };
+		AB4911FF1C21CD3300301980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4911FE1C21CD3300301980 /* AppDelegate.m */; };
+		AB4912051C21CD3300301980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4912031C21CD3300301980 /* Main.storyboard */; };
+		AB4912071C21CD3300301980 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4912061C21CD3300301980 /* Images.xcassets */; };
+		AB49120A1C21CD3300301980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4912081C21CD3300301980 /* LaunchScreen.storyboard */; };
+		AB49125D1C22F22100301980 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AB49125C1C22F22100301980 /* logo.png */; };
+		AB4912691C234C8000301980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4912681C234C8000301980 /* Foundation.framework */; };
+		AB49126B1C234C9700301980 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB49126A1C234C9700301980 /* CoreBluetooth.framework */; };
+		AB49126D1C234CB500301980 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB49126C1C234CB500301980 /* UIKit.framework */; };
+		AB49127E1C2354A600301980 /* BloodPressureMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = AB49127D1C2354A600301980 /* BloodPressureMeasurement.m */; };
+		AB4912841C235C8100301980 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4912831C235C8100301980 /* LoginVC.m */; };
+		AB5510721C83BE22009A60E6 /* BloodPressureHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5510711C83BE22009A60E6 /* BloodPressureHistoryVC.m */; };
+		AB590F721C57E6700098D492 /* AppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB590F711C57E6700098D492 /* AppVersion.m */; };
+		AB6A511C1C7B78CD00EDD54B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6A511B1C7B78CD00EDD54B /* HealthKit.framework */; };
+		AB6A511F1C7B7EE900EDD54B /* HealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A511E1C7B7EE900EDD54B /* HealthKitManager.m */; };
+		AB6A51281C7F5B8000EDD54B /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A51271C7F5B8000EDD54B /* UIColor+Extensions.m */; };
+		AB711CB71CA47F9E00A91333 /* cheer1.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB711CB61CA47F9E00A91333 /* cheer1.wav */; };
+		AB711CBA1CA4812F00A91333 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB711CB91CA4812F00A91333 /* AudioPlayer.m */; };
+		AB711CBC1CA481C600A91333 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB711CBB1CA481C600A91333 /* AVFoundation.framework */; };
+		AB711CBE1CA564CE00A91333 /* tiger_rag.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB711CBD1CA564CE00A91333 /* tiger_rag.wav */; };
+		AB711CC01CA5674300A91333 /* clowney.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB711CBF1CA5674300A91333 /* clowney.wav */; };
+		AB711CC21CA567D900A91333 /* grandpa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB711CC11CA567D900A91333 /* grandpa.mp3 */; };
+		AB87DB301CBC0CA8007B1679 /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = AB87DB2F1CBC0CA8007B1679 /* NSString+Encode.m */; };
+		AB8FDBD71C3EFE7800AFD1DD /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDBD61C3EFE7800AFD1DD /* UserManager.m */; };
+		AB9D08941DA3F1BD00B6CA01 /* iHealthLibrary(2.0.5).a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9D08931DA3F1BD00B6CA01 /* iHealthLibrary(2.0.5).a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AB9D089C1DA41B2E00B6CA01 /* OxygenSaturationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9D089B1DA41B2E00B6CA01 /* OxygenSaturationVC.m */; };
+		ABA4F37F1C29DDAA0081D50F /* WeightMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4F37E1C29DD020081D50F /* WeightMeasurement.m */; };
+		ABA865A31DD0C2D0009D16F9 /* dailyreminder.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABA865A11DD0C2D0009D16F9 /* dailyreminder.m4a */; };
+		ABA865A81DD1FFFB009D16F9 /* bpreminder.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABA865A71DD1FFFB009D16F9 /* bpreminder.m4a */; };
+		ABAB224F1DAD2D0100B0F806 /* OxygenSaturation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB224E1DAD2D0100B0F806 /* OxygenSaturation.m */; };
+		ABAB22521DAD5A7200B0F806 /* OxygenSaturationManualVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB22511DAD5A7200B0F806 /* OxygenSaturationManualVC.m */; };
+		ABAB22551DAD5E7E00B0F806 /* OxygenSaturationHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB22541DAD5E7E00B0F806 /* OxygenSaturationHistoryVC.m */; };
+		ABAD01551C6E6BDC006F277A /* CrashHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD01541C6E6BDC006F277A /* CrashHelper.m */; };
+		ABBE9DAC1C5684B1000DB1C4 /* HeartValvePlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBE9DAE1C5684B1000DB1C4 /* HeartValvePlist.strings */; };
+		ABBE9DBB1C5684B3000DB1C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBE9DBD1C5684B3000DB1C4 /* Localizable.strings */; };
+		ABBE9DC51C56A523000DB1C4 /* LoginInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE9DC41C56A523000DB1C4 /* LoginInformation.m */; };
+		ABBE9DC71C57BAB1000DB1C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBE9DC61C57BAB1000DB1C4 /* CoreLocation.framework */; };
+		ABBE9DC91C57C5B5000DB1C4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBE9DC81C57C5B5000DB1C4 /* CoreTelephony.framework */; };
+		ABCC790B1C84A36B00467B36 /* BloodGlucoseHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCC790A1C84A36B00467B36 /* BloodGlucoseHistoryVC.m */; };
+		ABCC790E1C84A38300467B36 /* WeightHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCC790D1C84A38300467B36 /* WeightHistoryVC.m */; };
+		ABCC792C1C87645C00467B36 /* UIFont+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCC792B1C87645C00467B36 /* UIFont+Extensions.m */; };
+		ABD87CF01D4174F900905A2A /* MenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD87CEF1D4174F900905A2A /* MenuVC.m */; };
+		ABD87CF31D417E2300905A2A /* HomeTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD87CF21D417E2300905A2A /* HomeTabBarVC.m */; };
+		ABD87CF71D429A5200905A2A /* ScrollingTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD87CF61D429A5200905A2A /* ScrollingTabBarView.xib */; };
+		ABD87CFB1D42BFE500905A2A /* UIButton+VerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD87CFA1D42BFE500905A2A /* UIButton+VerticalLayout.m */; };
+		ABD87CFF1D46662B00905A2A /* MeasurementsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD87CFE1D46662B00905A2A /* MeasurementsVC.m */; };
+		ABDA4A261C3C3BE700F31464 /* AD_UA_651BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A1E1C3C3BE700F31464 /* AD_UA_651BLE.m */; };
+		ABDA4A271C3C3BE700F31464 /* AD_UC_352BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A201C3C3BE700F31464 /* AD_UC_352BLE.m */; };
+		ABDA4A291C3C3BE700F31464 /* CoreBluetoothDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A241C3C3BE700F31464 /* CoreBluetoothDevice.m */; };
+		ABDA4A381C3C499800F31464 /* BloodPressureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A371C3C499800F31464 /* BloodPressureVC.m */; };
+		ABDA4A3E1C3C62CD00F31464 /* WeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A3D1C3C62CD00F31464 /* WeightVC.m */; };
+		ABDA4A441C3C636100F31464 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A431C3C636100F31464 /* User.m */; };
+		ABDA4A4A1C3C659500F31464 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A491C3C659500F31464 /* HomeVC.m */; };
+		ABDA4A561C3D7D8600F31464 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4A551C3D7D8600F31464 /* Utility.m */; };
+		ABE75AFE1C3ACC7E007278CD /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE75AFD1C3ACC7E007278CD /* logo_small.png */; };
+		ABE889721DCA42C800D07CCE /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE889711DCA42C800D07CCE /* WelcomeVC.m */; };
+		ABE889751DCA5CB400D07CCE /* BloodPressureGuidedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE889741DCA5CB400D07CCE /* BloodPressureGuidedVC.m */; };
+		ABE889781DCA70D500D07CCE /* WeightGuidedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE889771DCA70D500D07CCE /* WeightGuidedVC.m */; };
+		ABE8897B1DCA72FF00D07CCE /* OxygenSaturationGuidedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8897A1DCA72FF00D07CCE /* OxygenSaturationGuidedVC.m */; };
+		ABE8897E1DCA7F9F00D07CCE /* CompletionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8897D1DCA7F9F00D07CCE /* CompletionVC.m */; };
+		ABE889801DCA802A00D07CCE /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8897F1DCA802A00D07CCE /* LocalAuthentication.framework */; };
+		ABFAA5961C47F81900A02742 /* BloodPressureManualVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA5951C47F81900A02742 /* BloodPressureManualVC.m */; };
+		ABFAA59C1C47F87600A02742 /* WeightManualVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA59B1C47F87600A02742 /* WeightManualVC.m */; };
+		FE4E9239B6F68BE64CBFE2B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2642EA6F448EBF6F209471B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28026C691DFB4E9700593BAE /* HeartValve-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartValve-Bridging-Header.h"; sourceTree = "<group>"; };
+		28026C6A1DFB4E9800593BAE /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		28026C6C1DFB4ECB00593BAE /* SurveyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyVC.swift; sourceTree = "<group>"; };
+		28026C6E1DFB4F5600593BAE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		28026C701DFEE82400593BAE /* Survey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Survey.m; sourceTree = "<group>"; };
+		28026C721DFEE83100593BAE /* Survey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Survey.h; sourceTree = "<group>"; };
+		28026C731DFEF2B200593BAE /* SurveyQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurveyQuestion.h; sourceTree = "<group>"; };
+		28026C741DFEF2DC00593BAE /* SurveyQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyQuestion.m; sourceTree = "<group>"; };
+		28026C761DFEFE7000593BAE /* SurveyQuestionOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurveyQuestionOptions.h; sourceTree = "<group>"; };
+		28026C771DFEFE7D00593BAE /* SurveyQuestionOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyQuestionOptions.m; sourceTree = "<group>"; };
+		28026C791DFF04A900593BAE /* YesNoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YesNoVC.swift; sourceTree = "<group>"; };
+		28026C7B1DFF074700593BAE /* SurveyAnswer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurveyAnswer.h; sourceTree = "<group>"; };
+		28026C7C1DFF076200593BAE /* SurveyAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyAnswer.m; sourceTree = "<group>"; };
+		28026C7E1DFF237800593BAE /* SingleChoiceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleChoiceVC.swift; sourceTree = "<group>"; };
+		28026C801DFF25D100593BAE /* ChoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceCell.swift; sourceTree = "<group>"; };
+		28026C821DFF3B3400593BAE /* MultipleChoiceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceVC.swift; sourceTree = "<group>"; };
+		28026C841DFF3B4800593BAE /* ScaleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleVC.swift; sourceTree = "<group>"; };
+		28026C861DFF3B6900593BAE /* TrueFalseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueFalseVC.swift; sourceTree = "<group>"; };
+		28026C881DFF3BBD00593BAE /* CompletedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedVC.swift; sourceTree = "<group>"; };
+		28026C8A1DFF439500593BAE /* NumberVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberVC.swift; sourceTree = "<group>"; };
+		28026C8C1DFF44EF00593BAE /* FreeTextVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeTextVC.swift; sourceTree = "<group>"; };
+		28026C8E1E002C8F00593BAE /* ContinueSurveyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinueSurveyVC.swift; sourceTree = "<group>"; };
+		28AC2BAB1E55F5B200F0CB28 /* Enrollment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enrollment.h; sourceTree = "<group>"; };
+		28AC2BAC1E55F5C000F0CB28 /* Enrollment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enrollment.m; sourceTree = "<group>"; };
+		28AC2BAE1E560B1C00F0CB28 /* BehavioralSurveyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehavioralSurveyVC.swift; sourceTree = "<group>"; };
+		534426431EB7C670004E1D87 /* RegistrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationVC.h; sourceTree = "<group>"; };
+		534426441EB7C670004E1D87 /* RegistrationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationVC.m; sourceTree = "<group>"; };
+		538DA1581F472ED2006C4A5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		538DA1591F472ED3006C4A5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		538DA15C1F47356F006C4A5E /* BPStep1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPStep1ViewController.h; sourceTree = "<group>"; };
+		538DA15D1F47356F006C4A5E /* BPStep1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPStep1ViewController.m; sourceTree = "<group>"; };
+		538DA15F1F47359C006C4A5E /* BPStep2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPStep2ViewController.h; sourceTree = "<group>"; };
+		538DA1601F47359C006C4A5E /* BPStep2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPStep2ViewController.m; sourceTree = "<group>"; };
+		539369C91FA9162D00B4EF3D /* PairingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PairingVC.h; sourceTree = "<group>"; };
+		539369CA1FA9162D00B4EF3D /* PairingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairingVC.m; sourceTree = "<group>"; };
+		53C0FFD42006C9080085B3BD /* ActivationStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivationStatus.h; sourceTree = "<group>"; };
+		53C0FFD52006C9080085B3BD /* ActivationStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivationStatus.m; sourceTree = "<group>"; };
+		53CC70A41FA93B2700C50D18 /* WeightScalePairingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightScalePairingVC.h; sourceTree = "<group>"; };
+		53CC70A51FA93B2700C50D18 /* WeightScalePairingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightScalePairingVC.m; sourceTree = "<group>"; };
+		53CC70A71FA9469B00C50D18 /* BPMonitorPairingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPMonitorPairingVC.h; sourceTree = "<group>"; };
+		53CC70A81FA9469B00C50D18 /* BPMonitorPairingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPMonitorPairingVC.m; sourceTree = "<group>"; };
+		53CC70AA1FA946B800C50D18 /* PulseOximeterPairingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PulseOximeterPairingVC.h; sourceTree = "<group>"; };
+		53CC70AB1FA946B800C50D18 /* PulseOximeterPairingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulseOximeterPairingVC.m; sourceTree = "<group>"; };
+		5815E532E46C18D9B9EEE8EC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		87067A500B615E18661D90C4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2642EA6F448EBF6F209471B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB058A461C983437003C7307 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		AB058A471C983437003C7307 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
+		AB09F1951C517CE000D8A2B0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		AB09F1961C517CE000D8A2B0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AB12A6651C5D1F3200B1AF25 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AB12A6671C5D207F00B1AF25 /* DbManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DbManager.h; sourceTree = "<group>"; };
+		AB12A6681C5D212A00B1AF25 /* DbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbManager.m; sourceTree = "<group>"; };
+		AB15618F1CA3154000DB391F /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TelerikUI.framework; sourceTree = "<group>"; };
+		AB1821661C63EFDB0077BBFA /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = "Pods/PLCrashReporter/iOS Framework/CrashReporter.framework"; sourceTree = "<group>"; };
+		AB1821681C693A880077BBFA /* DateFormatters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateFormatters.h; sourceTree = "<group>"; };
+		AB1821691C693A990077BBFA /* DateFormatters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateFormatters.m; sourceTree = "<group>"; };
+		AB18216B1C6B95370077BBFA /* HeartValve.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = HeartValve.sql; sourceTree = "<group>"; };
+		AB1BEB561C54177A00DD7170 /* TimerUIApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerUIApplication.h; sourceTree = "<group>"; };
+		AB1BEB571C54183C00DD7170 /* TimerUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerUIApplication.m; sourceTree = "<group>"; };
+		AB1BEB5A1C546AB000DD7170 /* UIColor+HexValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexValue.h"; sourceTree = "<group>"; };
+		AB1BEB5B1C546BAB00DD7170 /* UIColor+HexValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexValue.m"; sourceTree = "<group>"; };
+		AB1BEB5D1C5492E000DD7170 /* HomeNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeNavigationVC.h; sourceTree = "<group>"; };
+		AB1BEB5E1C54930200DD7170 /* HomeNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNavigationVC.m; sourceTree = "<group>"; };
+		AB4821431C493AF00032252C /* BloodGlucoseMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseMeasurement.h; sourceTree = "<group>"; };
+		AB4821441C493C0F0032252C /* BloodGlucoseMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseMeasurement.m; sourceTree = "<group>"; };
+		AB4821461C493E270032252C /* BloodGlucoseManualVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseManualVC.h; sourceTree = "<group>"; };
+		AB4821471C493E360032252C /* BloodGlucoseManualVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseManualVC.m; sourceTree = "<group>"; };
+		AB4821491C4963000032252C /* EMASurveyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMASurveyVC.h; sourceTree = "<group>"; };
+		AB48214A1C49630E0032252C /* EMASurveyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMASurveyVC.m; sourceTree = "<group>"; };
+		AB4911F71C21CD3300301980 /* HeartValve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartValve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4911FB1C21CD3300301980 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB4911FD1C21CD3300301980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB4911FE1C21CD3300301980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB4912041C21CD3300301980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB4912061C21CD3300301980 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB4912091C21CD3300301980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB49120B1C21CD3300301980 /* HeartValve.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HeartValve.plist; sourceTree = "<group>"; };
+		AB49125C1C22F22100301980 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AB4912671C234A6600301980 /* BloodPressureMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloodPressureMeasurement.h; sourceTree = "<group>"; };
+		AB4912681C234C8000301980 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB49126A1C234C9700301980 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AB49126C1C234CB500301980 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB49127D1C2354A600301980 /* BloodPressureMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureMeasurement.m; sourceTree = "<group>"; };
+		AB4912821C235C2A00301980 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		AB4912831C235C8100301980 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		AB49EBDF1D88818000572A55 /* HeartValve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HeartValve.entitlements; sourceTree = "<group>"; };
+		AB5510701C83BE22009A60E6 /* BloodPressureHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureHistoryVC.h; sourceTree = "<group>"; };
+		AB5510711C83BE22009A60E6 /* BloodPressureHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureHistoryVC.m; sourceTree = "<group>"; };
+		AB590F701C57E6670098D492 /* AppVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppVersion.h; sourceTree = "<group>"; };
+		AB590F711C57E6700098D492 /* AppVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppVersion.m; sourceTree = "<group>"; };
+		AB6A511B1C7B78CD00EDD54B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		AB6A511D1C7B7ED900EDD54B /* HealthKitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthKitManager.h; sourceTree = "<group>"; };
+		AB6A511E1C7B7EE900EDD54B /* HealthKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKitManager.m; sourceTree = "<group>"; };
+		AB6A51261C7F5B7300EDD54B /* UIColor+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		AB6A51271C7F5B8000EDD54B /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		AB6ADE011C8C9BF800A210D3 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = Library/Frameworks/TelerikUI.framework; sourceTree = DEVELOPER_DIR; };
+		AB711CB61CA47F9E00A91333 /* cheer1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cheer1.wav; sourceTree = "<group>"; };
+		AB711CB81CA4812F00A91333 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		AB711CB91CA4812F00A91333 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		AB711CBB1CA481C600A91333 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AB711CBD1CA564CE00A91333 /* tiger_rag.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tiger_rag.wav; sourceTree = "<group>"; };
+		AB711CBF1CA5674300A91333 /* clowney.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clowney.wav; sourceTree = "<group>"; };
+		AB711CC11CA567D900A91333 /* grandpa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grandpa.mp3; sourceTree = "<group>"; };
+		AB87DB2E1CBC0CA8007B1679 /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
+		AB87DB2F1CBC0CA8007B1679 /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
+		AB8FDBD51C3EFE5800AFD1DD /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		AB8FDBD61C3EFE7800AFD1DD /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		AB9D08931DA3F1BD00B6CA01 /* iHealthLibrary(2.0.5).a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "iHealthLibrary(2.0.5).a"; path = "iHealthDeviceLabs-iOS/lib/iHealthLibrary(2.0.5).a"; sourceTree = "<group>"; };
+		AB9D089A1DA41B2E00B6CA01 /* OxygenSaturationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxygenSaturationVC.h; sourceTree = "<group>"; };
+		AB9D089B1DA41B2E00B6CA01 /* OxygenSaturationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxygenSaturationVC.m; sourceTree = "<group>"; };
+		ABA4F37E1C29DD020081D50F /* WeightMeasurement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightMeasurement.m; sourceTree = "<group>"; };
+		ABA4F3831C29DDD30081D50F /* WeightMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightMeasurement.h; sourceTree = "<group>"; };
+		ABA865A11DD0C2D0009D16F9 /* dailyreminder.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dailyreminder.m4a; sourceTree = "<group>"; };
+		ABA865A71DD1FFFB009D16F9 /* bpreminder.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bpreminder.m4a; sourceTree = "<group>"; };
+		ABAB224D1DAD2D0100B0F806 /* OxygenSaturation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxygenSaturation.h; sourceTree = "<group>"; };
+		ABAB224E1DAD2D0100B0F806 /* OxygenSaturation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxygenSaturation.m; sourceTree = "<group>"; };
+		ABAB22501DAD5A7200B0F806 /* OxygenSaturationManualVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxygenSaturationManualVC.h; sourceTree = "<group>"; };
+		ABAB22511DAD5A7200B0F806 /* OxygenSaturationManualVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxygenSaturationManualVC.m; sourceTree = "<group>"; };
+		ABAB22531DAD5E7E00B0F806 /* OxygenSaturationHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxygenSaturationHistoryVC.h; sourceTree = "<group>"; };
+		ABAB22541DAD5E7E00B0F806 /* OxygenSaturationHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxygenSaturationHistoryVC.m; sourceTree = "<group>"; };
+		ABAD01531C6E6B3D006F277A /* CrashHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashHelper.h; sourceTree = "<group>"; };
+		ABAD01541C6E6BDC006F277A /* CrashHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashHelper.m; sourceTree = "<group>"; };
+		ABBE9DAD1C5684B1000DB1C4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HeartValvePlist.strings; sourceTree = "<group>"; };
+		ABBE9DBC1C5684B3000DB1C4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ABBE9DC31C56A429000DB1C4 /* LoginInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginInformation.h; sourceTree = "<group>"; };
+		ABBE9DC41C56A523000DB1C4 /* LoginInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginInformation.m; sourceTree = "<group>"; };
+		ABBE9DC61C57BAB1000DB1C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ABBE9DC81C57C5B5000DB1C4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ABCC79091C84A36B00467B36 /* BloodGlucoseHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseHistoryVC.h; sourceTree = "<group>"; };
+		ABCC790A1C84A36B00467B36 /* BloodGlucoseHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseHistoryVC.m; sourceTree = "<group>"; };
+		ABCC790C1C84A38300467B36 /* WeightHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightHistoryVC.h; sourceTree = "<group>"; };
+		ABCC790D1C84A38300467B36 /* WeightHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightHistoryVC.m; sourceTree = "<group>"; };
+		ABCC792A1C87644F00467B36 /* UIFont+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extensions.h"; sourceTree = "<group>"; };
+		ABCC792B1C87645C00467B36 /* UIFont+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extensions.m"; sourceTree = "<group>"; };
+		ABD87CEE1D4174F900905A2A /* MenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuVC.h; sourceTree = "<group>"; };
+		ABD87CEF1D4174F900905A2A /* MenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuVC.m; sourceTree = "<group>"; };
+		ABD87CF11D417E2300905A2A /* HomeTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabBarVC.h; sourceTree = "<group>"; };
+		ABD87CF21D417E2300905A2A /* HomeTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarVC.m; sourceTree = "<group>"; };
+		ABD87CF61D429A5200905A2A /* ScrollingTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollingTabBarView.xib; sourceTree = "<group>"; };
+		ABD87CFA1D42BFE500905A2A /* UIButton+VerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VerticalLayout.m"; sourceTree = "<group>"; };
+		ABD87CFC1D42BFFF00905A2A /* UIButton+VerticalLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+VerticalLayout.h"; sourceTree = "<group>"; };
+		ABD87CFD1D46662B00905A2A /* MeasurementsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementsVC.h; sourceTree = "<group>"; };
+		ABD87CFE1D46662B00905A2A /* MeasurementsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementsVC.m; sourceTree = "<group>"; };
+		ABDA4A1D1C3C3BE700F31464 /* AD_UA_651BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AD_UA_651BLE.h; sourceTree = "<group>"; };
+		ABDA4A1E1C3C3BE700F31464 /* AD_UA_651BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AD_UA_651BLE.m; sourceTree = "<group>"; };
+		ABDA4A1F1C3C3BE700F31464 /* AD_UC_352BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AD_UC_352BLE.h; sourceTree = "<group>"; };
+		ABDA4A201C3C3BE700F31464 /* AD_UC_352BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AD_UC_352BLE.m; sourceTree = "<group>"; };
+		ABDA4A231C3C3BE700F31464 /* CoreBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothDevice.h; sourceTree = "<group>"; };
+		ABDA4A241C3C3BE700F31464 /* CoreBluetoothDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetoothDevice.m; sourceTree = "<group>"; };
+		ABDA4A251C3C3BE700F31464 /* CoreBluetoothDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothDelegate.h; sourceTree = "<group>"; };
+		ABDA4A361C3C498300F31464 /* BloodPressureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloodPressureVC.h; sourceTree = "<group>"; };
+		ABDA4A371C3C499800F31464 /* BloodPressureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureVC.m; sourceTree = "<group>"; };
+		ABDA4A3C1C3C628C00F31464 /* WeightVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightVC.h; sourceTree = "<group>"; };
+		ABDA4A3D1C3C62CD00F31464 /* WeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightVC.m; sourceTree = "<group>"; };
+		ABDA4A421C3C635300F31464 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		ABDA4A431C3C636100F31464 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		ABDA4A481C3C658800F31464 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		ABDA4A491C3C659500F31464 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		ABDA4A541C3D7D7800F31464 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		ABDA4A551C3D7D8600F31464 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		ABE75AFD1C3ACC7E007278CD /* logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_small.png; sourceTree = "<group>"; };
+		ABE889701DCA42C800D07CCE /* WelcomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
+		ABE889711DCA42C800D07CCE /* WelcomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
+		ABE889731DCA5CB400D07CCE /* BloodPressureGuidedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureGuidedVC.h; sourceTree = "<group>"; };
+		ABE889741DCA5CB400D07CCE /* BloodPressureGuidedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureGuidedVC.m; sourceTree = "<group>"; };
+		ABE889761DCA70D500D07CCE /* WeightGuidedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightGuidedVC.h; sourceTree = "<group>"; };
+		ABE889771DCA70D500D07CCE /* WeightGuidedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightGuidedVC.m; sourceTree = "<group>"; };
+		ABE889791DCA72FF00D07CCE /* OxygenSaturationGuidedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxygenSaturationGuidedVC.h; sourceTree = "<group>"; };
+		ABE8897A1DCA72FF00D07CCE /* OxygenSaturationGuidedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxygenSaturationGuidedVC.m; sourceTree = "<group>"; };
+		ABE8897C1DCA7F9F00D07CCE /* CompletionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletionVC.h; sourceTree = "<group>"; };
+		ABE8897D1DCA7F9F00D07CCE /* CompletionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletionVC.m; sourceTree = "<group>"; };
+		ABE8897F1DCA802A00D07CCE /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		ABFAA5941C47F7C600A02742 /* BloodPressureManualVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloodPressureManualVC.h; sourceTree = "<group>"; };
+		ABFAA5951C47F81900A02742 /* BloodPressureManualVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureManualVC.m; sourceTree = "<group>"; };
+		ABFAA59A1C47F86700A02742 /* WeightManualVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightManualVC.h; sourceTree = "<group>"; };
+		ABFAA59B1C47F87600A02742 /* WeightManualVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightManualVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4911F41C21CD3300301980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28026C6F1DFB4F5600593BAE /* AVKit.framework in Frameworks */,
+				ABE889801DCA802A00D07CCE /* LocalAuthentication.framework in Frameworks */,
+				AB9D08941DA3F1BD00B6CA01 /* iHealthLibrary(2.0.5).a in Frameworks */,
+				AB711CBC1CA481C600A91333 /* AVFoundation.framework in Frameworks */,
+				AB1561901CA3154000DB391F /* TelerikUI.framework in Frameworks */,
+				AB6A511C1C7B78CD00EDD54B /* HealthKit.framework in Frameworks */,
+				AB12A6661C5D1F3200B1AF25 /* libsqlite3.tbd in Frameworks */,
+				AB1821671C63EFDB0077BBFA /* CrashReporter.framework in Frameworks */,
+				ABBE9DC91C57C5B5000DB1C4 /* CoreTelephony.framework in Frameworks */,
+				ABBE9DC71C57BAB1000DB1C4 /* CoreLocation.framework in Frameworks */,
+				AB49126D1C234CB500301980 /* UIKit.framework in Frameworks */,
+				AB49126B1C234C9700301980 /* CoreBluetooth.framework in Frameworks */,
+				AB4912691C234C8000301980 /* Foundation.framework in Frameworks */,
+				FE4E9239B6F68BE64CBFE2B0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28026C681DFB4E7300593BAE /* Surveys */ = {
+			isa = PBXGroup;
+			children = (
+				28026C6C1DFB4ECB00593BAE /* SurveyVC.swift */,
+				28026C8E1E002C8F00593BAE /* ContinueSurveyVC.swift */,
+				28026C791DFF04A900593BAE /* YesNoVC.swift */,
+				28026C861DFF3B6900593BAE /* TrueFalseVC.swift */,
+				28026C7E1DFF237800593BAE /* SingleChoiceVC.swift */,
+				28026C821DFF3B3400593BAE /* MultipleChoiceVC.swift */,
+				28026C841DFF3B4800593BAE /* ScaleVC.swift */,
+				28026C8A1DFF439500593BAE /* NumberVC.swift */,
+				28026C8C1DFF44EF00593BAE /* FreeTextVC.swift */,
+				28026C6A1DFB4E9800593BAE /* CameraVC.swift */,
+				28026C881DFF3BBD00593BAE /* CompletedVC.swift */,
+				28026C801DFF25D100593BAE /* ChoiceCell.swift */,
+				28AC2BAE1E560B1C00F0CB28 /* BehavioralSurveyVC.swift */,
+			);
+			name = Surveys;
+			sourceTree = "<group>";
+		};
+		538DA15B1F4734B5006C4A5E /* BP Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				538DA15C1F47356F006C4A5E /* BPStep1ViewController.h */,
+				538DA15D1F47356F006C4A5E /* BPStep1ViewController.m */,
+				538DA15F1F47359C006C4A5E /* BPStep2ViewController.h */,
+				538DA1601F47359C006C4A5E /* BPStep2ViewController.m */,
+			);
+			name = "BP Instructions";
+			sourceTree = "<group>";
+		};
+		53CC70AE1FA946E800C50D18 /* Pairing */ = {
+			isa = PBXGroup;
+			children = (
+				539369C91FA9162D00B4EF3D /* PairingVC.h */,
+				539369CA1FA9162D00B4EF3D /* PairingVC.m */,
+				53CC70A41FA93B2700C50D18 /* WeightScalePairingVC.h */,
+				53CC70A51FA93B2700C50D18 /* WeightScalePairingVC.m */,
+				53CC70A71FA9469B00C50D18 /* BPMonitorPairingVC.h */,
+				53CC70A81FA9469B00C50D18 /* BPMonitorPairingVC.m */,
+				53CC70AA1FA946B800C50D18 /* PulseOximeterPairingVC.h */,
+				53CC70AB1FA946B800C50D18 /* PulseOximeterPairingVC.m */,
+			);
+			path = Pairing;
+			sourceTree = "<group>";
+		};
+		70199C378683F6E0BE81E768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28026C6E1DFB4F5600593BAE /* AVKit.framework */,
+				ABE8897F1DCA802A00D07CCE /* LocalAuthentication.framework */,
+				AB9D08931DA3F1BD00B6CA01 /* iHealthLibrary(2.0.5).a */,
+				AB711CBB1CA481C600A91333 /* AVFoundation.framework */,
+				AB15618F1CA3154000DB391F /* TelerikUI.framework */,
+				AB6ADE011C8C9BF800A210D3 /* TelerikUI.framework */,
+				AB6A511B1C7B78CD00EDD54B /* HealthKit.framework */,
+				AB1821661C63EFDB0077BBFA /* CrashReporter.framework */,
+				AB12A6651C5D1F3200B1AF25 /* libsqlite3.tbd */,
+				ABBE9DC81C57C5B5000DB1C4 /* CoreTelephony.framework */,
+				ABBE9DC61C57BAB1000DB1C4 /* CoreLocation.framework */,
+				AB49126C1C234CB500301980 /* UIKit.framework */,
+				AB49126A1C234C9700301980 /* CoreBluetooth.framework */,
+				AB4912681C234C8000301980 /* Foundation.framework */,
+				A2642EA6F448EBF6F209471B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB1BEB591C546A6600DD7170 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AB1BEB5A1C546AB000DD7170 /* UIColor+HexValue.h */,
+				AB1BEB5B1C546BAB00DD7170 /* UIColor+HexValue.m */,
+				AB6A51261C7F5B7300EDD54B /* UIColor+Extensions.h */,
+				AB6A51271C7F5B8000EDD54B /* UIColor+Extensions.m */,
+				ABCC792A1C87644F00467B36 /* UIFont+Extensions.h */,
+				ABCC792B1C87645C00467B36 /* UIFont+Extensions.m */,
+				AB87DB2E1CBC0CA8007B1679 /* NSString+Encode.h */,
+				AB87DB2F1CBC0CA8007B1679 /* NSString+Encode.m */,
+				ABD87CFC1D42BFFF00905A2A /* UIButton+VerticalLayout.h */,
+				ABD87CFA1D42BFE500905A2A /* UIButton+VerticalLayout.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AB4911EE1C21CD3300301980 = {
+			isa = PBXGroup;
+			children = (
+				AB4911F91C21CD3300301980 /* HeartValve */,
+				AB4911F81C21CD3300301980 /* Products */,
+				DECCF3D3D09550860F8FF128 /* Pods */,
+				70199C378683F6E0BE81E768 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB4911F81C21CD3300301980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4911F71C21CD3300301980 /* HeartValve.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB4911F91C21CD3300301980 /* HeartValve */ = {
+			isa = PBXGroup;
+			children = (
+				AB49EBDF1D88818000572A55 /* HeartValve.entitlements */,
+				AB4912031C21CD3300301980 /* Main.storyboard */,
+				AB4912081C21CD3300301980 /* LaunchScreen.storyboard */,
+				AB4912641C2343E300301980 /* Application */,
+				AB4912631C233EB400301980 /* Controllers */,
+				AB4912611C2337C100301980 /* Models */,
+				AB4912651C23441400301980 /* Library */,
+				AB4912621C233DE700301980 /* Assets */,
+				AB4911FA1C21CD3300301980 /* Supporting Files */,
+			);
+			path = HeartValve;
+			sourceTree = "<group>";
+		};
+		AB4911FA1C21CD3300301980 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE9DBD1C5684B3000DB1C4 /* Localizable.strings */,
+				ABBE9DAE1C5684B1000DB1C4 /* HeartValvePlist.strings */,
+				AB4911FB1C21CD3300301980 /* main.m */,
+				AB49120B1C21CD3300301980 /* HeartValve.plist */,
+				AB18216B1C6B95370077BBFA /* HeartValve.sql */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB4912111C21CE4200301980 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB49125C1C22F22100301980 /* logo.png */,
+				ABE75AFD1C3ACC7E007278CD /* logo_small.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AB4912611C2337C100301980 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB590F701C57E6670098D492 /* AppVersion.h */,
+				AB590F711C57E6700098D492 /* AppVersion.m */,
+				AB4821431C493AF00032252C /* BloodGlucoseMeasurement.h */,
+				AB4821441C493C0F0032252C /* BloodGlucoseMeasurement.m */,
+				AB4912671C234A6600301980 /* BloodPressureMeasurement.h */,
+				AB49127D1C2354A600301980 /* BloodPressureMeasurement.m */,
+				ABBE9DC31C56A429000DB1C4 /* LoginInformation.h */,
+				ABBE9DC41C56A523000DB1C4 /* LoginInformation.m */,
+				ABAB224D1DAD2D0100B0F806 /* OxygenSaturation.h */,
+				ABAB224E1DAD2D0100B0F806 /* OxygenSaturation.m */,
+				28026C721DFEE83100593BAE /* Survey.h */,
+				28026C701DFEE82400593BAE /* Survey.m */,
+				28026C731DFEF2B200593BAE /* SurveyQuestion.h */,
+				28026C741DFEF2DC00593BAE /* SurveyQuestion.m */,
+				28026C761DFEFE7000593BAE /* SurveyQuestionOptions.h */,
+				28026C771DFEFE7D00593BAE /* SurveyQuestionOptions.m */,
+				28026C7B1DFF074700593BAE /* SurveyAnswer.h */,
+				28026C7C1DFF076200593BAE /* SurveyAnswer.m */,
+				ABDA4A421C3C635300F31464 /* User.h */,
+				ABDA4A431C3C636100F31464 /* User.m */,
+				ABA4F3831C29DDD30081D50F /* WeightMeasurement.h */,
+				ABA4F37E1C29DD020081D50F /* WeightMeasurement.m */,
+				28AC2BAB1E55F5B200F0CB28 /* Enrollment.h */,
+				28AC2BAC1E55F5C000F0CB28 /* Enrollment.m */,
+				53C0FFD42006C9080085B3BD /* ActivationStatus.h */,
+				53C0FFD52006C9080085B3BD /* ActivationStatus.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AB4912621C233DE700301980 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AB711CB51CA47F7700A91333 /* Sounds */,
+				AB4912111C21CE4200301980 /* Images */,
+				AB4912061C21CD3300301980 /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AB4912631C233EB400301980 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53CC70AE1FA946E800C50D18 /* Pairing */,
+				538DA15B1F4734B5006C4A5E /* BP Instructions */,
+				28026C681DFB4E7300593BAE /* Surveys */,
+				AB1BEB5D1C5492E000DD7170 /* HomeNavigationVC.h */,
+				AB1BEB5E1C54930200DD7170 /* HomeNavigationVC.m */,
+				ABDA4A481C3C658800F31464 /* HomeVC.h */,
+				ABDA4A491C3C659500F31464 /* HomeVC.m */,
+				AB4912821C235C2A00301980 /* LoginVC.h */,
+				AB4912831C235C8100301980 /* LoginVC.m */,
+				ABDA4A361C3C498300F31464 /* BloodPressureVC.h */,
+				ABDA4A371C3C499800F31464 /* BloodPressureVC.m */,
+				ABDA4A3C1C3C628C00F31464 /* WeightVC.h */,
+				ABDA4A3D1C3C62CD00F31464 /* WeightVC.m */,
+				ABFAA5941C47F7C600A02742 /* BloodPressureManualVC.h */,
+				ABFAA5951C47F81900A02742 /* BloodPressureManualVC.m */,
+				ABFAA59A1C47F86700A02742 /* WeightManualVC.h */,
+				ABFAA59B1C47F87600A02742 /* WeightManualVC.m */,
+				AB4821461C493E270032252C /* BloodGlucoseManualVC.h */,
+				AB4821471C493E360032252C /* BloodGlucoseManualVC.m */,
+				AB4821491C4963000032252C /* EMASurveyVC.h */,
+				AB48214A1C49630E0032252C /* EMASurveyVC.m */,
+				AB5510701C83BE22009A60E6 /* BloodPressureHistoryVC.h */,
+				AB5510711C83BE22009A60E6 /* BloodPressureHistoryVC.m */,
+				ABCC79091C84A36B00467B36 /* BloodGlucoseHistoryVC.h */,
+				ABCC790A1C84A36B00467B36 /* BloodGlucoseHistoryVC.m */,
+				ABCC790C1C84A38300467B36 /* WeightHistoryVC.h */,
+				ABCC790D1C84A38300467B36 /* WeightHistoryVC.m */,
+				ABD87CEE1D4174F900905A2A /* MenuVC.h */,
+				ABD87CEF1D4174F900905A2A /* MenuVC.m */,
+				ABD87CF11D417E2300905A2A /* HomeTabBarVC.h */,
+				ABD87CF21D417E2300905A2A /* HomeTabBarVC.m */,
+				ABD87CF61D429A5200905A2A /* ScrollingTabBarView.xib */,
+				ABD87CFD1D46662B00905A2A /* MeasurementsVC.h */,
+				ABD87CFE1D46662B00905A2A /* MeasurementsVC.m */,
+				AB9D089A1DA41B2E00B6CA01 /* OxygenSaturationVC.h */,
+				AB9D089B1DA41B2E00B6CA01 /* OxygenSaturationVC.m */,
+				ABAB22501DAD5A7200B0F806 /* OxygenSaturationManualVC.h */,
+				ABAB22511DAD5A7200B0F806 /* OxygenSaturationManualVC.m */,
+				ABAB22531DAD5E7E00B0F806 /* OxygenSaturationHistoryVC.h */,
+				ABAB22541DAD5E7E00B0F806 /* OxygenSaturationHistoryVC.m */,
+				ABE889701DCA42C800D07CCE /* WelcomeVC.h */,
+				ABE889711DCA42C800D07CCE /* WelcomeVC.m */,
+				ABE889731DCA5CB400D07CCE /* BloodPressureGuidedVC.h */,
+				ABE889741DCA5CB400D07CCE /* BloodPressureGuidedVC.m */,
+				ABE889761DCA70D500D07CCE /* WeightGuidedVC.h */,
+				ABE889771DCA70D500D07CCE /* WeightGuidedVC.m */,
+				ABE889791DCA72FF00D07CCE /* OxygenSaturationGuidedVC.h */,
+				ABE8897A1DCA72FF00D07CCE /* OxygenSaturationGuidedVC.m */,
+				ABE8897C1DCA7F9F00D07CCE /* CompletionVC.h */,
+				ABE8897D1DCA7F9F00D07CCE /* CompletionVC.m */,
+				534426431EB7C670004E1D87 /* RegistrationVC.h */,
+				534426441EB7C670004E1D87 /* RegistrationVC.m */,
+				538DA1581F472ED2006C4A5E /* MainViewController.h */,
+				538DA1591F472ED3006C4A5E /* MainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AB4912641C2343E300301980 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AB4911FD1C21CD3300301980 /* AppDelegate.h */,
+				AB4911FE1C21CD3300301980 /* AppDelegate.m */,
+				AB1BEB561C54177A00DD7170 /* TimerUIApplication.h */,
+				AB1BEB571C54183C00DD7170 /* TimerUIApplication.m */,
+				28026C691DFB4E9700593BAE /* HeartValve-Bridging-Header.h */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		AB4912651C23441400301980 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD01531C6E6B3D006F277A /* CrashHelper.h */,
+				ABAD01541C6E6BDC006F277A /* CrashHelper.m */,
+				ABDA4A541C3D7D7800F31464 /* Utility.h */,
+				ABDA4A551C3D7D8600F31464 /* Utility.m */,
+				AB1821681C693A880077BBFA /* DateFormatters.h */,
+				AB1821691C693A990077BBFA /* DateFormatters.m */,
+				AB8FDBD51C3EFE5800AFD1DD /* UserManager.h */,
+				AB8FDBD61C3EFE7800AFD1DD /* UserManager.m */,
+				AB12A6671C5D207F00B1AF25 /* DbManager.h */,
+				AB12A6681C5D212A00B1AF25 /* DbManager.m */,
+				AB6A511D1C7B7ED900EDD54B /* HealthKitManager.h */,
+				AB6A511E1C7B7EE900EDD54B /* HealthKitManager.m */,
+				AB058A461C983437003C7307 /* NotificationManager.h */,
+				AB058A471C983437003C7307 /* NotificationManager.m */,
+				AB711CB81CA4812F00A91333 /* AudioPlayer.h */,
+				AB711CB91CA4812F00A91333 /* AudioPlayer.m */,
+				AB1BEB591C546A6600DD7170 /* Categories */,
+				AB4912661C23473B00301980 /* Bluetooth */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		AB4912661C23473B00301980 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA4A1D1C3C3BE700F31464 /* AD_UA_651BLE.h */,
+				ABDA4A1E1C3C3BE700F31464 /* AD_UA_651BLE.m */,
+				ABDA4A1F1C3C3BE700F31464 /* AD_UC_352BLE.h */,
+				ABDA4A201C3C3BE700F31464 /* AD_UC_352BLE.m */,
+				ABDA4A231C3C3BE700F31464 /* CoreBluetoothDevice.h */,
+				ABDA4A241C3C3BE700F31464 /* CoreBluetoothDevice.m */,
+				ABDA4A251C3C3BE700F31464 /* CoreBluetoothDelegate.h */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		AB711CB51CA47F7700A91333 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AB711CB61CA47F9E00A91333 /* cheer1.wav */,
+				AB711CBD1CA564CE00A91333 /* tiger_rag.wav */,
+				AB711CBF1CA5674300A91333 /* clowney.wav */,
+				AB711CC11CA567D900A91333 /* grandpa.mp3 */,
+				ABA865A11DD0C2D0009D16F9 /* dailyreminder.m4a */,
+				ABA865A71DD1FFFB009D16F9 /* bpreminder.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		DECCF3D3D09550860F8FF128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5815E532E46C18D9B9EEE8EC /* Pods.debug.xcconfig */,
+				87067A500B615E18661D90C4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB4911F61C21CD3300301980 /* HeartValve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB49120E1C21CD3300301980 /* Build configuration list for PBXNativeTarget "HeartValve" */;
+			buildPhases = (
+				DAE2A0DAE141CD21F0C497A3 /* Check Pods Manifest.lock */,
+				AB4911F31C21CD3300301980 /* Sources */,
+				AB4911F41C21CD3300301980 /* Frameworks */,
+				AB4911F51C21CD3300301980 /* Resources */,
+				A088E6F2DC7902B02306285F /* Embed Pods Frameworks */,
+				26BC7F65F77D93AA3146FF34 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartValve;
+			productName = MyHealthApp;
+			productReference = AB4911F71C21CD3300301980 /* HeartValve.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB4911EF1C21CD3300301980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MUSC;
+				TargetAttributes = {
+					AB4911F61C21CD3300301980 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2CUL4ALMRH;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AB4911F21C21CD3300301980 /* Build configuration list for PBXProject "HeartValve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				es,
+			);
+			mainGroup = AB4911EE1C21CD3300301980;
+			productRefGroup = AB4911F81C21CD3300301980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4911F61C21CD3300301980 /* HeartValve */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB4911F51C21CD3300301980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB49120A1C21CD3300301980 /* LaunchScreen.storyboard in Resources */,
+				AB711CC01CA5674300A91333 /* clowney.wav in Resources */,
+				ABD87CF71D429A5200905A2A /* ScrollingTabBarView.xib in Resources */,
+				AB49125D1C22F22100301980 /* logo.png in Resources */,
+				AB711CB71CA47F9E00A91333 /* cheer1.wav in Resources */,
+				AB18216C1C6B95370077BBFA /* HeartValve.sql in Resources */,
+				ABE75AFE1C3ACC7E007278CD /* logo_small.png in Resources */,
+				AB4912071C21CD3300301980 /* Images.xcassets in Resources */,
+				ABA865A31DD0C2D0009D16F9 /* dailyreminder.m4a in Resources */,
+				ABBE9DAC1C5684B1000DB1C4 /* HeartValvePlist.strings in Resources */,
+				ABBE9DBB1C5684B3000DB1C4 /* Localizable.strings in Resources */,
+				AB4912051C21CD3300301980 /* Main.storyboard in Resources */,
+				AB711CC21CA567D900A91333 /* grandpa.mp3 in Resources */,
+				AB711CBE1CA564CE00A91333 /* tiger_rag.wav in Resources */,
+				ABA865A81DD1FFFB009D16F9 /* bpreminder.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26BC7F65F77D93AA3146FF34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A088E6F2DC7902B02306285F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE2A0DAE141CD21F0C497A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB4911F31C21CD3300301980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCC790B1C84A36B00467B36 /* BloodGlucoseHistoryVC.m in Sources */,
+				AB48214B1C49630E0032252C /* EMASurveyVC.m in Sources */,
+				AB8FDBD71C3EFE7800AFD1DD /* UserManager.m in Sources */,
+				ABDA4A381C3C499800F31464 /* BloodPressureVC.m in Sources */,
+				538DA15E1F47356F006C4A5E /* BPStep1ViewController.m in Sources */,
+				28026C6D1DFB4ECB00593BAE /* SurveyVC.swift in Sources */,
+				ABE889721DCA42C800D07CCE /* WelcomeVC.m in Sources */,
+				ABDA4A271C3C3BE700F31464 /* AD_UC_352BLE.m in Sources */,
+				AB12A6691C5D212A00B1AF25 /* DbManager.m in Sources */,
+				28026C781DFEFE7D00593BAE /* SurveyQuestionOptions.m in Sources */,
+				28026C711DFEE82400593BAE /* Survey.m in Sources */,
+				AB590F721C57E6700098D492 /* AppVersion.m in Sources */,
+				538DA1611F47359C006C4A5E /* BPStep2ViewController.m in Sources */,
+				ABDA4A291C3C3BE700F31464 /* CoreBluetoothDevice.m in Sources */,
+				28026C7D1DFF076200593BAE /* SurveyAnswer.m in Sources */,
+				28026C811DFF25D100593BAE /* ChoiceCell.swift in Sources */,
+				ABD87CFB1D42BFE500905A2A /* UIButton+VerticalLayout.m in Sources */,
+				ABDA4A561C3D7D8600F31464 /* Utility.m in Sources */,
+				ABDA4A4A1C3C659500F31464 /* HomeVC.m in Sources */,
+				28026C891DFF3BBD00593BAE /* CompletedVC.swift in Sources */,
+				28026C6B1DFB4E9800593BAE /* CameraVC.swift in Sources */,
+				28026C851DFF3B4800593BAE /* ScaleVC.swift in Sources */,
+				ABCC792C1C87645C00467B36 /* UIFont+Extensions.m in Sources */,
+				ABBE9DC51C56A523000DB1C4 /* LoginInformation.m in Sources */,
+				AB6A511F1C7B7EE900EDD54B /* HealthKitManager.m in Sources */,
+				ABAB224F1DAD2D0100B0F806 /* OxygenSaturation.m in Sources */,
+				ABE8897B1DCA72FF00D07CCE /* OxygenSaturationGuidedVC.m in Sources */,
+				AB5510721C83BE22009A60E6 /* BloodPressureHistoryVC.m in Sources */,
+				28026C8B1DFF439500593BAE /* NumberVC.swift in Sources */,
+				AB4821481C493E360032252C /* BloodGlucoseManualVC.m in Sources */,
+				28026C831DFF3B3400593BAE /* MultipleChoiceVC.swift in Sources */,
+				AB49127E1C2354A600301980 /* BloodPressureMeasurement.m in Sources */,
+				AB1BEB581C54183C00DD7170 /* TimerUIApplication.m in Sources */,
+				ABFAA59C1C47F87600A02742 /* WeightManualVC.m in Sources */,
+				AB4911FF1C21CD3300301980 /* AppDelegate.m in Sources */,
+				AB1BEB5C1C546BAB00DD7170 /* UIColor+HexValue.m in Sources */,
+				28026C8F1E002C8F00593BAE /* ContinueSurveyVC.swift in Sources */,
+				ABE8897E1DCA7F9F00D07CCE /* CompletionVC.m in Sources */,
+				AB4821451C493C0F0032252C /* BloodGlucoseMeasurement.m in Sources */,
+				539369CB1FA9162D00B4EF3D /* PairingVC.m in Sources */,
+				534426451EB7C670004E1D87 /* RegistrationVC.m in Sources */,
+				53C0FFD62006C9080085B3BD /* ActivationStatus.m in Sources */,
+				28026C871DFF3B6900593BAE /* TrueFalseVC.swift in Sources */,
+				538DA15A1F472ED3006C4A5E /* MainViewController.m in Sources */,
+				28AC2BAF1E560B1C00F0CB28 /* BehavioralSurveyVC.swift in Sources */,
+				ABAB22521DAD5A7200B0F806 /* OxygenSaturationManualVC.m in Sources */,
+				ABDA4A3E1C3C62CD00F31464 /* WeightVC.m in Sources */,
+				AB4912841C235C8100301980 /* LoginVC.m in Sources */,
+				AB87DB301CBC0CA8007B1679 /* NSString+Encode.m in Sources */,
+				ABD87CFF1D46662B00905A2A /* MeasurementsVC.m in Sources */,
+				53CC70AC1FA946B800C50D18 /* PulseOximeterPairingVC.m in Sources */,
+				28026C8D1DFF44F000593BAE /* FreeTextVC.swift in Sources */,
+				53CC70A91FA9469B00C50D18 /* BPMonitorPairingVC.m in Sources */,
+				ABDA4A441C3C636100F31464 /* User.m in Sources */,
+				AB1BEB5F1C54930200DD7170 /* HomeNavigationVC.m in Sources */,
+				ABFAA5961C47F81900A02742 /* BloodPressureManualVC.m in Sources */,
+				28026C7A1DFF04A900593BAE /* YesNoVC.swift in Sources */,
+				ABAD01551C6E6BDC006F277A /* CrashHelper.m in Sources */,
+				ABAB22551DAD5E7E00B0F806 /* OxygenSaturationHistoryVC.m in Sources */,
+				28AC2BAD1E55F5C000F0CB28 /* Enrollment.m in Sources */,
+				AB058A481C983437003C7307 /* NotificationManager.m in Sources */,
+				28026C751DFEF2DC00593BAE /* SurveyQuestion.m in Sources */,
+				ABD87CF31D417E2300905A2A /* HomeTabBarVC.m in Sources */,
+				AB9D089C1DA41B2E00B6CA01 /* OxygenSaturationVC.m in Sources */,
+				28026C7F1DFF237800593BAE /* SingleChoiceVC.swift in Sources */,
+				ABD87CF01D4174F900905A2A /* MenuVC.m in Sources */,
+				AB18216A1C693A990077BBFA /* DateFormatters.m in Sources */,
+				AB4911FC1C21CD3300301980 /* main.m in Sources */,
+				ABA4F37F1C29DDAA0081D50F /* WeightMeasurement.m in Sources */,
+				53CC70A61FA93B2700C50D18 /* WeightScalePairingVC.m in Sources */,
+				AB711CBA1CA4812F00A91333 /* AudioPlayer.m in Sources */,
+				AB6A51281C7F5B8000EDD54B /* UIColor+Extensions.m in Sources */,
+				ABDA4A261C3C3BE700F31464 /* AD_UA_651BLE.m in Sources */,
+				ABE889751DCA5CB400D07CCE /* BloodPressureGuidedVC.m in Sources */,
+				ABE889781DCA70D500D07CCE /* WeightGuidedVC.m in Sources */,
+				ABCC790E1C84A38300467B36 /* WeightHistoryVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB4912031C21CD3300301980 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB4912041C21CD3300301980 /* Base */,
+				AB09F1951C517CE000D8A2B0 /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB4912081C21CD3300301980 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB4912091C21CD3300301980 /* Base */,
+				AB09F1961C517CE000D8A2B0 /* es */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBE9DAE1C5684B1000DB1C4 /* HeartValvePlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBE9DAD1C5684B1000DB1C4 /* es */,
+			);
+			name = HeartValvePlist.strings;
+			sourceTree = "<group>";
+		};
+		ABBE9DBD1C5684B3000DB1C4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBE9DBC1C5684B3000DB1C4 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB49120C1C21CD3300301980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB49120D1C21CD3300301980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB49120F1C21CD3300301980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5815E532E46C18D9B9EEE8EC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HeartValve/HeartValve.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Medical University of South Carolina";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CUL4ALMRH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Pods/PLCrashReporter/\"iOS Framework\"",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ABPadLockScreen\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/ApIdleManager\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/JNKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/LTHPasscodeViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/Overcoat\"",
+					"\"${PODS_ROOT}/Headers/Public/PLCrashReporter\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/SWRevealViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/XLForm\"",
+					"\"${PROJECT_DIR}/iHealthDeviceLabs-iOS/lib\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HeartValve/HeartValve.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthDeviceLabs-iOS/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.musc.tachl.HeartValve;
+				PRODUCT_NAME = HeartValve;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartValve/HeartValve-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AB4912101C21CD3300301980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87067A500B615E18661D90C4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HeartValve/HeartValve.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Medical University of South Carolina";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CUL4ALMRH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Pods/PLCrashReporter/\"iOS Framework\"",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ABPadLockScreen\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/ApIdleManager\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/JNKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/LTHPasscodeViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/Overcoat\"",
+					"\"${PODS_ROOT}/Headers/Public/PLCrashReporter\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/SWRevealViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/XLForm\"",
+					"\"${PROJECT_DIR}/iHealthDeviceLabs-iOS/lib\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HeartValve/HeartValve.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthDeviceLabs-iOS/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.musc.tachl.HeartValve;
+				PRODUCT_NAME = HeartValve;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartValve/HeartValve-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4911F21C21CD3300301980 /* Build configuration list for PBXProject "HeartValve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB49120C1C21CD3300301980 /* Debug */,
+				AB49120D1C21CD3300301980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB49120E1C21CD3300301980 /* Build configuration list for PBXNativeTarget "HeartValve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB49120F1C21CD3300301980 /* Debug */,
+				AB4912101C21CD3300301980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB4911EF1C21CD3300301980 /* Project object */;
+}

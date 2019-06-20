@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AM4ViewController">
+            <connections>
+                <outlet property="textField" destination="RWk-pD-3Gx" id="6MC-Vw-ujm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrX-Wk-HyD">
+                    <rect key="frame" x="34" y="363" width="86" height="30"/>
+                    <state key="normal" title="ResetDevice"/>
+                    <connections>
+                        <action selector="commandAM4ResetDevice:" destination="-1" eventType="touchUpInside" id="eB0-Yb-Shc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVr-iO-YaC">
+                    <rect key="frame" x="197" y="249" width="63" height="30"/>
+                    <state key="normal" title="SetAlarm"/>
+                    <connections>
+                        <action selector="commandAM4SetAlarmDictionary:" destination="-1" eventType="touchUpInside" id="sb1-9U-L4I"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5z-XJ-TQC">
+                    <rect key="frame" x="12" y="205" width="129" height="30"/>
+                    <state key="normal" title="SyncCurrentActive"/>
+                    <connections>
+                        <action selector="SyncCurrentActive:" destination="-1" eventType="touchUpInside" id="BD8-Lf-yUJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sex-ce-UQ0">
+                    <rect key="frame" x="171" y="160" width="105" height="30"/>
+                    <state key="normal" title="SyncSleepData"/>
+                    <connections>
+                        <action selector="SyncSleepData:" destination="-1" eventType="touchUpInside" id="PEM-uM-yXg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BtW-C3-bck">
+                    <rect key="frame" x="175" y="205" width="106" height="30"/>
+                    <state key="normal" title="SyncStageData"/>
+                    <connections>
+                        <action selector="SyncStageData:" destination="-1" eventType="touchUpInside" id="QGB-7h-dwW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWr-Xz-KxV">
+                    <rect key="frame" x="21" y="160" width="108" height="30"/>
+                    <state key="normal" title="SyncActiveData"/>
+                    <connections>
+                        <action selector="SyncActiveData:" destination="-1" eventType="touchUpInside" id="lx0-gW-lku"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAq-Mq-Djg">
+                    <rect key="frame" x="170" y="287" width="112" height="30"/>
+                    <state key="normal" title="GetDeviceState"/>
+                    <connections>
+                        <action selector="commandAM4GetDeviceStateInfo:" destination="-1" eventType="touchUpInside" id="YkD-0x-sgK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2J-tP-BtX">
+                    <rect key="frame" x="187" y="357" width="78" height="30"/>
+                    <state key="normal" title="Disconnect"/>
+                    <connections>
+                        <action selector="commandAM4Disconnect:" destination="-1" eventType="touchUpInside" id="sSM-C2-9eJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDW-vw-IMn">
+                    <rect key="frame" x="24" y="254" width="106" height="30"/>
+                    <state key="normal" title="GetTotoalAlarm"/>
+                    <connections>
+                        <action selector="commandAM4GetTotoalAlarmInfo:" destination="-1" eventType="touchUpInside" id="I7w-Ik-FhE"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RWk-pD-3Gx">
+                    <rect key="frame" x="24" y="105" width="97" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivg-8m-SvT">
+                    <rect key="frame" x="183" y="56" width="65" height="30"/>
+                    <state key="normal" title="stopScan"/>
+                    <connections>
+                        <action selector="stopScan:" destination="-1" eventType="touchUpInside" id="GBr-J6-It4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XO-IS-mpb">
+                    <rect key="frame" x="30" y="56" width="80" height="30"/>
+                    <state key="normal" title="scanDevice"/>
+                    <connections>
+                        <action selector="scanDevice:" destination="-1" eventType="touchUpInside" id="2v5-im-Lzu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siJ-aK-oGJ">
+                    <rect key="frame" x="33" y="292" width="84" height="30"/>
+                    <state key="normal" title="DeleteAlarm"/>
+                    <connections>
+                        <action selector="commandAM4DeleteAlarmID:" destination="-1" eventType="touchUpInside" id="lc9-8n-qde"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mt-bD-MDf">
+                    <rect key="frame" x="24" y="396" width="107" height="30"/>
+                    <state key="normal" title="GetTimeFormat"/>
+                    <connections>
+                        <action selector="commandAM4GetTimeFormatAndNation:" destination="-1" eventType="touchUpInside" id="er4-NK-SLU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eY9-2s-6EL">
+                    <rect key="frame" x="176" y="325" width="89" height="30"/>
+                    <state key="normal" title="SetReminder"/>
+                    <connections>
+                        <action selector="commandAM4SetReminderDictionary:" destination="-1" eventType="touchUpInside" id="93S-ah-Jl6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6OT-jZ-y5N">
+                    <rect key="frame" x="36" y="325" width="90" height="30"/>
+                    <state key="normal" title="GetReminder"/>
+                    <connections>
+                        <action selector="commandAM4GetReminderInfo:" destination="-1" eventType="touchUpInside" id="ffs-jv-894"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm5-Iy-mQ2">
+                    <rect key="frame" x="185" y="401" width="83" height="30"/>
+                    <state key="normal" title="GetUserInfo"/>
+                    <connections>
+                        <action selector="commandAM4GetUserInfo:" destination="-1" eventType="touchUpInside" id="t1n-LO-XlR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86g-wL-uBQ">
+                    <rect key="frame" x="33" y="439" width="96" height="30"/>
+                    <state key="normal" title="GetSwimming"/>
+                    <connections>
+                        <action selector="commandAM4GetSwimmingInfo:" destination="-1" eventType="touchUpInside" id="tXL-fI-gFh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n21-Om-9Sd">
+                    <rect key="frame" x="175" y="105" width="70" height="30"/>
+                    <state key="normal" title="SetUserID"/>
+                    <connections>
+                        <action selector="setUserID:" destination="-1" eventType="touchUpInside" id="vJL-4p-AVE"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kDk-fo-OLH">
+                    <rect key="frame" x="21" y="477" width="274" height="47"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="469" y="194"/>
+        </view>
+    </objects>
+</document>
